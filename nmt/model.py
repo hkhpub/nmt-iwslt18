@@ -593,8 +593,7 @@ class Model(BaseModel):
                         dtype=dtype,
                         hparams=hparams,
                         num_bi_layers=num_bi_layers,
-                        num_bi_residual_layers=num_bi_residual_layers,
-                        base_gpu=hparams.base_gpu))
+                        num_bi_residual_layers=num_bi_residual_layers))
 
                 if num_bi_layers == 1:
                     encoder_state = bi_encoder_state
@@ -666,7 +665,6 @@ class Model(BaseModel):
             dropout=hparams.dropout,
             num_gpus=self.num_gpus,
             mode=self.mode,
-            base_gpu=hparams.base_gpu,
             single_cell_fn=self.single_cell_fn)
 
         # For beam search, we need to replicate encoder infos beam_width times

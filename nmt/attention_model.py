@@ -44,7 +44,6 @@ class AttentionModel(model.Model):
                reverse_target_vocab_table=None,
                scope=None,
                extra_args=None):
-
     # Set attention_mechanism_fn
     if extra_args and extra_args.attention_mechanism_fn:
       self.attention_mechanism_fn = extra_args.attention_mechanism_fn
@@ -110,7 +109,6 @@ class AttentionModel(model.Model):
         dropout=hparams.dropout,
         num_gpus=self.num_gpus,
         mode=self.mode,
-        base_gpu=hparams.base_gpu,
         single_cell_fn=self.single_cell_fn)
 
     # Only generate alignment in greedy INFER mode.

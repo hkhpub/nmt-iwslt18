@@ -213,8 +213,6 @@ def add_arguments(parser):
     # Misc
     parser.add_argument("--num_gpus", type=int, default=1,
                         help="Number of gpus in each worker.")
-    parser.add_argument("--base_gpu", type=int, default=0,
-                        help="GPU device number")
     parser.add_argument("--log_device_placement", type="bool", nargs="?",
                         const=True, default=False, help="Debug GPU allocation.")
     parser.add_argument("--metrics", type=str, default="bleu",
@@ -357,7 +355,6 @@ def create_hparams(flags):
         # Misc
         forget_bias=flags.forget_bias,
         num_gpus=flags.num_gpus,
-        base_gpu=flags.base_gpu,
         epoch_step=0,  # record where we were within an epoch.
         steps_per_stats=flags.steps_per_stats,
         steps_per_external_eval=flags.steps_per_external_eval,
@@ -392,11 +389,6 @@ def extend_hparams(hparams):
         raise ValueError("For gnmt attention architecture, "
                          "num_encoder_layers %d should be >= 2" %
                          hparams.num_encoder_layers)
-
-    if "base_gpu" not in hparams:
-        hparams.add_hparam("base_gpu", 0)
-    print("base gpu ------------------------------------------")
-    print(hparams.base_gpu)
 
     # Set residual layers
     num_encoder_residual_layers = 0
