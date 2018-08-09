@@ -390,6 +390,9 @@ def extend_hparams(hparams):
                          "num_encoder_layers %d should be >= 2" %
                          hparams.num_encoder_layers)
 
+    if "base_gpu" not in hparams:
+        hparams.add_hparam("base_gpu", 0)
+
     # Set residual layers
     num_encoder_residual_layers = 0
     num_decoder_residual_layers = 0

@@ -17478,3 +17478,1936 @@ totalMemory: 7.92GiB freeMemory: 7.15GiB
   saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
 # External evaluation, global step 90000
   decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:41:42 2018.
+  bleu test: 1.4
+  rouge test: 20.2
+  accuracy test: 0.4
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 90700 lr 0.0001 step-time 0.12s wps 9.53K ppl 1.08 gN 40.59 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:41:51 2018
+  step 90800 lr 0.0001 step-time 0.12s wps 9.42K ppl 1.08 gN 30.33 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:42:03 2018
+# Finished an epoch, step 90802. Perform external evaluation
+2018-08-09 19:42:04.224097: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:42:04.224099: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:42:04.224104: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-90000, time 0.08s
+  # 548
+    src: Balin proiektu handiago baten hastapenetan ari gara lanean .
+    ref: We are also working on the start of a bigger project in Bali .
+    nmt: A first well-being is occurred , all one .
+2018-08-09 19:42:04.333183: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:42:04.333185: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 19:42:04.333183: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-90000, time 0.08s
+# External evaluation, global step 90000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:42:08 2018.
+  bleu dev: 1.4
+  rouge dev: 20.2
+  accuracy dev: 0.4
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 90000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:42:14 2018.
+  bleu test: 1.4
+  rouge test: 20.2
+  accuracy test: 0.4
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 90900 lr 0.0001 step-time 0.11s wps 9.79K ppl 1.07 gN 33.02 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:42:26 2018
+# Finished an epoch, step 90968. Perform external evaluation
+2018-08-09 19:42:33.518809: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:42:33.518833: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:42:33.518850: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-90000, time 0.08s
+  # 975
+    src: Orduan atzetik gerturatu , pistola bere buruaren aurka ipini , eta bala bakarrarekin bere garuna zauritu zuen .
+    ref: He then approached her from behind , pressed the barrel of his gun against her head , and with a single bullet , lacerated her midbrain .
+    nmt: So this , I can tell this , and the person loaded around this face , and he came around a wall one .
+2018-08-09 19:42:33.655618: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:42:33.655627: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:42:33.655642: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-90000, time 0.08s
+# External evaluation, global step 90000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 3s, Thu Aug  9 19:42:37 2018.
+  bleu dev: 1.4
+  rouge dev: 20.2
+  accuracy dev: 0.4
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 90000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:42:42 2018.
+  bleu test: 1.4
+  rouge test: 20.2
+  accuracy test: 0.4
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 91000 lr 0.0001 step-time 0.12s wps 9.72K ppl 1.08 gN 36.10 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:42:47 2018
+# Save eval, global step 91000
+2018-08-09 19:42:48.319074: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:42:48.319114: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 19:42:48.319245: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-91000, time 0.09s
+  # 9
+    src: Interes handia dut hezkuntzan , eta uste dut guztiok dugula interes hori .
+    ref: So I have a big interest in education , and I think we all do .
+    nmt: I think I want to think about a right time , I think we &apos; re going to do with this .
+2018-08-09 19:42:48.439119: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:42:48.439127: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded eval model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-91000, time 0.07s
+  eval dev: perplexity 7938976.48, time 2s, Thu Aug  9 19:42:50 2018.
+  eval test: perplexity 7938976.61, time 2s, Thu Aug  9 19:42:52 2018.
+  step 91100 lr 0.0001 step-time 0.12s wps 9.74K ppl 1.07 gN 27.45 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:43:04 2018
+# Finished an epoch, step 91134. Perform external evaluation
+2018-08-09 19:43:08.200715: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:43:08.200715: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:43:08.200769: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-91000, time 0.07s
+  # 689
+    src: Nik azaldu nahi dizuet bazirela 6 eralbilpen hiltzailek zeintzuk Mendelbadea munduaren gainerakoengandik bereizten zuten .
+    ref: I want to explain to you that there were six killer apps that set the West apart from the rest .
+    nmt: I wanted to see her people that love , different girls and changed the world .
+2018-08-09 19:43:08.289231: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:43:08.289231: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:43:08.289237: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-91000, time 0.06s
+# External evaluation, global step 91000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 3s, Thu Aug  9 19:43:12 2018.
+  bleu dev: 1.4
+  rouge dev: 20.2
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 91000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 3s, Thu Aug  9 19:43:16 2018.
+  bleu test: 1.4
+  rouge test: 20.2
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 91200 lr 0.0001 step-time 0.12s wps 9.13K ppl 1.07 gN 32.85 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:43:25 2018
+  step 91300 lr 0.0001 step-time 0.13s wps 8.75K ppl 1.08 gN 34.06 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:43:38 2018
+# Finished an epoch, step 91300. Perform external evaluation
+2018-08-09 19:43:39.036650: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:43:39.036666: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 19:43:39.036659: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-91000, time 0.09s
+  # 32
+    src: Ez badakite , beste zerbaitekin saiatzen dira . Zuzen ari naiz ? Ez diete beldurrik hutsegiteei .
+    ref: If they don &apos; t know , they &apos; ll have a go . Am I right ? They &apos; re not frightened of being wrong .
+    nmt: It &apos; s not easy . Don &apos; t take us for the spirit .
+2018-08-09 19:43:39.171585: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:43:39.171596: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:43:39.171607: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-91000, time 0.09s
+# External evaluation, global step 91000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:43:43 2018.
+  bleu dev: 1.4
+  rouge dev: 20.2
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 91000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 3s, Thu Aug  9 19:43:48 2018.
+  bleu test: 1.4
+  rouge test: 20.2
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 91400 lr 0.0001 step-time 0.11s wps 10.17K ppl 1.07 gN 28.01 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:43:59 2018
+# Finished an epoch, step 91466. Perform external evaluation
+2018-08-09 19:44:08.671848: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:44:08.671876: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:44:08.671915: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-91000, time 0.08s
+  # 788
+    src: Ekonomian masterra egin nuen .
+    ref: I &#91; did &#93; a master &apos; s degree in economics .
+    nmt: I was to apply an little sense .
+2018-08-09 19:44:08.799494: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:44:08.799494: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:44:08.799499: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-91000, time 0.10s
+# External evaluation, global step 91000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:44:13 2018.
+  bleu dev: 1.4
+  rouge dev: 20.2
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 91000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:44:19 2018.
+  bleu test: 1.4
+  rouge test: 20.2
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 91500 lr 0.0001 step-time 0.13s wps 8.82K ppl 1.08 gN 37.27 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:44:24 2018
+  step 91600 lr 0.0001 step-time 0.11s wps 10.91K ppl 1.07 gN 29.29 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:44:34 2018
+# Finished an epoch, step 91632. Perform external evaluation
+2018-08-09 19:44:38.366509: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:44:38.366522: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:44:38.366561: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-91000, time 0.09s
+  # 521
+    src: Donna Toney poster hau bezala , edo Chopin , edo Mozart , edo La Monte Young .
+    ref: Like this Donna Toney poster , or Chopin , or Mozart , or La Monte Young .
+    nmt: And in the Internet , I am that it &apos; s going to tell us this number , and sometimes all this person .
+2018-08-09 19:44:38.468880: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:44:38.468925: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 19:44:38.468880: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-91000, time 0.07s
+# External evaluation, global step 91000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 3s, Thu Aug  9 19:44:42 2018.
+  bleu dev: 1.4
+  rouge dev: 20.2
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 91000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:44:47 2018.
+  bleu test: 1.4
+  rouge test: 20.2
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 91700 lr 0.0001 step-time 0.13s wps 8.92K ppl 1.08 gN 34.72 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:44:57 2018
+# Finished an epoch, step 91798. Perform external evaluation
+2018-08-09 19:45:09.678695: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:45:09.678695: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:45:09.678760: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-91000, time 0.08s
+  # 752
+    src: Nik ez dut uste mendebaldeko zibilizazioaren beherakada saihestezina denik , historia modu horretan dabilenik uste ez dudalako ziklo-bizi eredu honetan , Thomas Cole-k modu ikaragarrian irudiztatu egin zituen &quot; Inperioaren ibilera &quot; margolanak .
+    ref: I don &apos; t think the decline of Western civilization is inevitable , because I don &apos; t think history operates in this kind of life-cycle model , beautifully illustrated by Thomas Cole &apos; s &quot; Course of Empire &quot; paintings .
+    nmt: I think I &apos; m going to think the person is only political of you &apos; d give any human other hours . &quot; I think this is the slightly as I think the might few of any seats to a drum , and any few news .
+2018-08-09 19:45:09.857146: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:45:09.857175: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:45:09.857175: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-91000, time 0.08s
+# External evaluation, global step 91000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 3s, Thu Aug  9 19:45:13 2018.
+  bleu dev: 1.4
+  rouge dev: 20.2
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 91000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:45:18 2018.
+  bleu test: 1.4
+  rouge test: 20.2
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 91800 lr 0.0001 step-time 0.12s wps 9.28K ppl 1.08 gN 34.50 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:45:19 2018
+  step 91900 lr 0.0001 step-time 0.13s wps 9.01K ppl 1.07 gN 29.34 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:45:32 2018
+# Finished an epoch, step 91964. Perform external evaluation
+2018-08-09 19:45:40.617076: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:45:40.617096: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:45:40.617085: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-91000, time 0.08s
+  # 869
+    src: Lurra guztiz akabatua , erosioa , lurra lehortu egin zen .
+    ref: Land completely destroyed , the erosion there , the land had dried .
+    nmt: And when you was surprised in that that was really deeper to work .
+2018-08-09 19:45:40.765167: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:45:40.765167: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:45:40.765180: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-91000, time 0.09s
+# External evaluation, global step 91000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:45:45 2018.
+  bleu dev: 1.4
+  rouge dev: 20.2
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 91000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:45:50 2018.
+  bleu test: 1.4
+  rouge test: 20.2
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 92000 lr 0.0001 step-time 0.12s wps 9.05K ppl 1.07 gN 32.89 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:45:54 2018
+# Save eval, global step 92000
+2018-08-09 19:45:55.412381: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:45:55.412381: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:45:55.412425: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-92000, time 0.08s
+  # 52
+    src: Nire semeak ez zuen etorri nahi . Bi seme-alaba ditut . Mutilak 21 urte ditu orain ; alabak 16.
+    ref: My son didn &apos; t want to come . I &apos; ve got two kids ; he &apos; s 21 now , my daughter &apos; s 16.
+    nmt: When you have surprised with the mother when you have happened to do the life , he had happened to me when could me when could me .
+2018-08-09 19:45:55.535076: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 19:45:55.535094: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded eval model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-92000, time 0.06s
+  eval dev: perplexity 7798083.62, time 1s, Thu Aug  9 19:45:57 2018.
+  eval test: perplexity 7798085.25, time 1s, Thu Aug  9 19:45:58 2018.
+  step 92100 lr 0.0001 step-time 0.11s wps 10.27K ppl 1.07 gN 29.43 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:46:10 2018
+# Finished an epoch, step 92130. Perform external evaluation
+2018-08-09 19:46:14.177407: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:46:14.177407: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:46:14.177481: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-92000, time 0.08s
+  # 38
+    src: Era honen ondorioz , sormen ahalmen gabeko jendea hezten ari gara eskoletan .
+    ref: And the result is that we are educating people out of their creative capacities .
+    nmt: Now as these buildings in a couple of nasty time , it &apos; s so much time .
+2018-08-09 19:46:14.315749: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:46:14.315751: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 19:46:14.315756: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-92000, time 0.09s
+# External evaluation, global step 92000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:46:19 2018.
+  bleu dev: 1.5
+  rouge dev: 20.1
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 92000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:46:24 2018.
+  bleu test: 1.5
+  rouge test: 20.1
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 92200 lr 0.0001 step-time 0.13s wps 8.74K ppl 1.07 gN 31.71 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:46:34 2018
+# Finished an epoch, step 92296. Perform external evaluation
+2018-08-09 19:46:45.018801: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:46:45.018826: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 19:46:45.018869: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-92000, time 0.09s
+  # 674
+    src: Oraindik ez banauzue sinesten , guk Koreako Penintsulan ere gauzatu genuen esperimentua .
+    ref: If you still don &apos; t believe me , we conducted the experiment also in the Korean Peninsula .
+    nmt: So you have see that when you see your search years , so you could see there .
+2018-08-09 19:46:45.145750: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:46:45.145750: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:46:45.145754: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-92000, time 0.08s
+# External evaluation, global step 92000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 3s, Thu Aug  9 19:46:49 2018.
+  bleu dev: 1.5
+  rouge dev: 20.1
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 92000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:46:54 2018.
+  bleu test: 1.5
+  rouge test: 20.1
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 92300 lr 0.0001 step-time 0.11s wps 10.22K ppl 1.07 gN 34.01 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:46:55 2018
+  step 92400 lr 0.0001 step-time 0.13s wps 8.92K ppl 1.06 gN 26.78 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:47:08 2018
+# Finished an epoch, step 92462. Perform external evaluation
+2018-08-09 19:47:16.806745: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:47:16.806752: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 19:47:16.806745: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-92000, time 0.08s
+  # 98
+    src: Gauza abstraktuetan pentsatzen dugu , mugimenduetan baita .
+    ref: We think in abstract terms , we think in movement .
+    nmt: Now we &apos; re starting to think every science of things .
+2018-08-09 19:47:16.921309: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:47:16.921309: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:47:16.921320: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-92000, time 0.08s
+# External evaluation, global step 92000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:47:21 2018.
+  bleu dev: 1.5
+  rouge dev: 20.1
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 92000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 3s, Thu Aug  9 19:47:25 2018.
+  bleu test: 1.5
+  rouge test: 20.1
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 92500 lr 0.0001 step-time 0.12s wps 9.25K ppl 1.07 gN 32.89 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:47:30 2018
+  step 92600 lr 0.0001 step-time 0.13s wps 9.01K ppl 1.07 gN 30.78 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:47:43 2018
+# Finished an epoch, step 92628. Perform external evaluation
+2018-08-09 19:47:47.071806: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:47:47.071821: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 19:47:47.071835: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-92000, time 0.08s
+  # 416
+    src: June Cohen : Ole !
+    ref: June Cohen : Olé !
+    nmt: Now : I would learn up .
+2018-08-09 19:47:47.189991: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:47:47.189991: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:47:47.189994: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-92000, time 0.09s
+# External evaluation, global step 92000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:47:51 2018.
+  bleu dev: 1.5
+  rouge dev: 20.1
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 92000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:47:57 2018.
+  bleu test: 1.5
+  rouge test: 20.1
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 92700 lr 0.0001 step-time 0.12s wps 9.58K ppl 1.07 gN 31.23 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:48:05 2018
+# Finished an epoch, step 92794. Perform external evaluation
+2018-08-09 19:48:16.763761: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:48:16.763764: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 19:48:16.763796: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-92000, time 0.09s
+  # 300
+    src: Hemen duzue alfabeto martetarra .
+    ref: Here , you &apos; ve got Martian alphabet .
+    nmt: I &apos; ve need them .
+2018-08-09 19:48:16.876385: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:48:16.876385: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:48:16.876386: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-92000, time 0.09s
+# External evaluation, global step 92000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:48:21 2018.
+  bleu dev: 1.5
+  rouge dev: 20.1
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 92000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:48:27 2018.
+  bleu test: 1.5
+  rouge test: 20.1
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 92800 lr 0.0001 step-time 0.12s wps 9.57K ppl 1.08 gN 36.68 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:48:28 2018
+  step 92900 lr 0.0001 step-time 0.12s wps 9.62K ppl 1.06 gN 27.31 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:48:40 2018
+# Finished an epoch, step 92960. Perform external evaluation
+2018-08-09 19:48:47.307510: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:48:47.307535: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:48:47.307517: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-92000, time 0.08s
+  # 353
+    src: Nire ustez presio hori gure artistak hiltzen aritu da azken 500 urteetan .
+    ref: And I think the pressure of that has been killing off our artists for the last 500 years .
+    nmt: The point . This is the left .
+2018-08-09 19:48:47.415770: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:48:47.415779: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 19:48:47.415770: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-92000, time 0.08s
+# External evaluation, global step 92000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:48:51 2018.
+  bleu dev: 1.5
+  rouge dev: 20.1
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 92000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:48:56 2018.
+  bleu test: 1.5
+  rouge test: 20.1
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 93000 lr 0.0001 step-time 0.12s wps 9.64K ppl 1.07 gN 33.51 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:49:02 2018
+# Save eval, global step 93000
+2018-08-09 19:49:02.963427: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:49:02.963427: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:49:02.963489: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-93000, time 0.09s
+  # 450
+    src: Eta gero nire etxea inguratzen zuten eta nire goizeko ibilaldietan erasotzen ninduten txakur basati guztiak uxatzeko eraren bat bilatu behar nuen .
+    ref: And then I needed some sort of way to be able to get back to all the wild dogs that surround my house , and attacked me during my morning walks .
+    nmt: And on my hand on my right , and which they &apos; re done attention to my mother , and it says my &quot;
+2018-08-09 19:49:03.120545: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:49:03.120545: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded eval model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-93000, time 0.07s
+  eval dev: perplexity 9193702.33, time 2s, Thu Aug  9 19:49:05 2018.
+  eval test: perplexity 9193701.94, time 2s, Thu Aug  9 19:49:07 2018.
+  step 93100 lr 0.0001 step-time 0.12s wps 9.35K ppl 1.07 gN 29.00 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:49:19 2018
+# Finished an epoch, step 93126. Perform external evaluation
+2018-08-09 19:49:22.765153: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:49:22.765155: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 19:49:22.765153: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-93000, time 0.08s
+  # 461
+    src: Kafea hartzeko mahai hau ere egin nuen .
+    ref: Then there is a coffee table . I also did a coffee table .
+    nmt: I could just made this shoes .
+2018-08-09 19:49:22.870307: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 19:49:22.870307: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:49:22.870337: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-93000, time 0.08s
+# External evaluation, global step 93000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 3s, Thu Aug  9 19:49:26 2018.
+  bleu dev: 1.6
+  rouge dev: 20.2
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 93000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:49:31 2018.
+  bleu test: 1.6
+  rouge test: 20.2
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 93200 lr 0.0001 step-time 0.12s wps 9.18K ppl 1.07 gN 32.59 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:49:41 2018
+# Finished an epoch, step 93292. Perform external evaluation
+2018-08-09 19:49:53.412961: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 19:49:53.412973: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:49:53.412990: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-93000, time 0.07s
+  # 793
+    src: Gero inbertsio-banku baten aritu nintzen .
+    ref: I worked after for an investment bank .
+    nmt: There was a connection to capacity .
+2018-08-09 19:49:53.504024: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:49:53.504024: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:49:53.504046: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-93000, time 0.08s
+# External evaluation, global step 93000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:49:57 2018.
+  bleu dev: 1.6
+  rouge dev: 20.2
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 93000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:50:02 2018.
+  bleu test: 1.6
+  rouge test: 20.2
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 93300 lr 0.0001 step-time 0.13s wps 8.43K ppl 1.07 gN 31.02 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:50:04 2018
+  step 93400 lr 0.0001 step-time 0.11s wps 10.71K ppl 1.06 gN 28.21 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:50:15 2018
+# Finished an epoch, step 93458. Perform external evaluation
+2018-08-09 19:50:22.234155: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:50:22.234162: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 19:50:22.234217: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-93000, time 0.07s
+  # 176
+    src: Zer da benetan gertatzen ari dena ?
+    ref: Now , what &apos; s really going on ?
+    nmt: What is what it &apos; s doing ?
+2018-08-09 19:50:22.319613: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:50:22.319613: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:50:22.319631: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-93000, time 0.07s
+# External evaluation, global step 93000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 3s, Thu Aug  9 19:50:26 2018.
+  bleu dev: 1.6
+  rouge dev: 20.2
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 93000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:50:31 2018.
+  bleu test: 1.6
+  rouge test: 20.2
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 93500 lr 0.0001 step-time 0.12s wps 9.42K ppl 1.07 gN 31.52 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:50:38 2018
+  step 93600 lr 0.0001 step-time 0.12s wps 9.36K ppl 1.07 gN 28.96 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:50:50 2018
+# Finished an epoch, step 93624. Perform external evaluation
+2018-08-09 19:50:53.378853: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:50:53.378862: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:50:53.378877: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-93000, time 0.09s
+  # 76
+    src: Eta arrazoi bat dago .
+    ref: And there &apos; s a reason .
+    nmt: And there &apos; s a big case .
+2018-08-09 19:50:53.486344: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:50:53.486344: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:50:53.486350: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-93000, time 0.09s
+# External evaluation, global step 93000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 3s, Thu Aug  9 19:50:56 2018.
+  bleu dev: 1.6
+  rouge dev: 20.2
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 93000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:51:01 2018.
+  bleu test: 1.6
+  rouge test: 20.2
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 93700 lr 0.0001 step-time 0.12s wps 9.02K ppl 1.06 gN 32.23 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:51:12 2018
+# Finished an epoch, step 93790. Perform external evaluation
+2018-08-09 19:51:24.051558: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 19:51:24.051565: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:51:24.051561: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-93000, time 0.09s
+  # 596
+    src: Irudiok mundua aldatu al zuten ?
+    ref: Did the images change the world ?
+    nmt: What we ever go into the streets ?
+2018-08-09 19:51:24.151964: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:51:24.151983: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 19:51:24.151964: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-93000, time 0.08s
+# External evaluation, global step 93000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:51:28 2018.
+  bleu dev: 1.6
+  rouge dev: 20.2
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 93000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:51:33 2018.
+  bleu test: 1.6
+  rouge test: 20.2
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 93800 lr 0.0001 step-time 0.13s wps 8.69K ppl 1.07 gN 35.69 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:51:35 2018
+  step 93900 lr 0.0001 step-time 0.11s wps 10.86K ppl 1.06 gN 28.28 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:51:46 2018
+# Finished an epoch, step 93956. Perform external evaluation
+2018-08-09 19:51:53.920410: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 19:51:53.920410: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:51:53.920410: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-93000, time 0.09s
+  # 209
+    src: Gorputzeko edozein zatiaren fantasma eduki dezakezu .
+    ref: In fact , you can get a phantom with almost any part of the body .
+    nmt: The data goes in that options is a form .
+2018-08-09 19:51:54.032929: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 19:51:54.032954: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:51:54.032929: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-93000, time 0.09s
+# External evaluation, global step 93000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:51:58 2018.
+  bleu dev: 1.6
+  rouge dev: 20.2
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 93000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:52:04 2018.
+  bleu test: 1.6
+  rouge test: 20.2
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 94000 lr 0.0001 step-time 0.13s wps 8.60K ppl 1.07 gN 33.34 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:52:10 2018
+# Save eval, global step 94000
+2018-08-09 19:52:11.287062: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:52:11.287158: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:52:11.287282: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-94000, time 0.08s
+  # 421
+    src: Eta bideoak eta aukezpen materiala sortu dugu ezagutzen dituzuen musikari askorentzat , Eta ezezagunak zaizkizuen musikari askoz gehiagorentzat .
+    ref: And we created videos and packaging for many musicians that you know , and for even more that you &apos; ve never heard of .
+    nmt: And so we just have to have this off that this , and I knew , so I have to have so much about the whole level station .
+2018-08-09 19:52:11.408593: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:52:11.408632: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded eval model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-94000, time 0.06s
+  eval dev: perplexity 9055993.51, time 1s, Thu Aug  9 19:52:13 2018.
+  eval test: perplexity 9055990.70, time 1s, Thu Aug  9 19:52:14 2018.
+  step 94100 lr 0.0001 step-time 0.11s wps 10.97K ppl 1.07 gN 29.60 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:52:25 2018
+# Finished an epoch, step 94122. Perform external evaluation
+2018-08-09 19:52:28.206717: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:52:28.206722: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 19:52:28.206722: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-94000, time 0.08s
+  # 38
+    src: Era honen ondorioz , sormen ahalmen gabeko jendea hezten ari gara eskoletan .
+    ref: And the result is that we are educating people out of their creative capacities .
+    nmt: Now as these buildings system , it &apos; s as a lot of certain attention to religions .
+2018-08-09 19:52:28.346116: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:52:28.346117: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:52:28.346128: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-94000, time 0.09s
+# External evaluation, global step 94000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:52:33 2018.
+  bleu dev: 1.5
+  rouge dev: 20.2
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 94000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:52:38 2018.
+  bleu test: 1.5
+  rouge test: 20.2
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 94200 lr 0.0001 step-time 0.13s wps 8.57K ppl 1.06 gN 32.49 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:52:49 2018
+# Finished an epoch, step 94288. Perform external evaluation
+2018-08-09 19:52:59.396176: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:52:59.396191: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 19:52:59.396176: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-94000, time 0.08s
+  # 117
+    src: Beste guztiak gogaitzen zituen , etxeko lanak beti berandu entregatzen zituen , eta horrela , 8 urteko umeak .
+    ref: Because she was disturbing people ; her homework was always late ; and so on , little kid of eight .
+    nmt: He were no saying that was the long man , but he was no much in the head that he was so shameful .
+2018-08-09 19:52:59.536772: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:52:59.536772: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:52:59.536775: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-94000, time 0.08s
+# External evaluation, global step 94000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:53:03 2018.
+  bleu dev: 1.5
+  rouge dev: 20.2
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 94000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 3s, Thu Aug  9 19:53:08 2018.
+  bleu test: 1.5
+  rouge test: 20.2
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 94300 lr 0.0001 step-time 0.11s wps 10.00K ppl 1.07 gN 35.51 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:53:10 2018
+  step 94400 lr 0.0001 step-time 0.13s wps 9.05K ppl 1.07 gN 28.87 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:53:23 2018
+# Finished an epoch, step 94454. Perform external evaluation
+2018-08-09 19:53:30.541407: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:53:30.541452: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:53:30.541409: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-94000, time 0.08s
+  # 445
+    src: Sri Lankan gerrate zibilean zeuden . Beraz Bali aukeratu nuen .
+    ref: Sri Lanka still had the civil war going on , so Bali it was .
+    nmt: I mean that you &apos; ll have up that I &apos; ll have up .
+2018-08-09 19:53:30.668359: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:53:30.668359: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:53:30.668409: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-94000, time 0.09s
+# External evaluation, global step 94000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:53:34 2018.
+  bleu dev: 1.5
+  rouge dev: 20.2
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 94000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 3s, Thu Aug  9 19:53:39 2018.
+  bleu test: 1.5
+  rouge test: 20.2
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 94500 lr 0.0001 step-time 0.12s wps 9.17K ppl 1.06 gN 29.72 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:53:45 2018
+  step 94600 lr 0.0001 step-time 0.12s wps 9.69K ppl 1.07 gN 29.41 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:53:57 2018
+# Finished an epoch, step 94620. Perform external evaluation
+2018-08-09 19:53:59.746799: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:53:59.746816: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 19:53:59.746809: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-94000, time 0.09s
+  # 809
+    src: Emaztearekin amodioa egitean , ez zen niregandik hazirik ateratzen . Odola ateratzen zen . Lagun baten medikua ikustera joan nintzen Parisera .
+    ref: When I made love with my wife , I had no sperm that came out of me ; I had blood .
+    nmt: Now I would talk to read the food on something up that he went on that really technology don &apos; t even want to this work .
+2018-08-09 19:53:59.890483: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 19:53:59.890483: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:53:59.890488: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-94000, time 0.08s
+# External evaluation, global step 94000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:54:04 2018.
+  bleu dev: 1.5
+  rouge dev: 20.2
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 94000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:54:08 2018.
+  bleu test: 1.5
+  rouge test: 20.2
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 94700 lr 0.0001 step-time 0.11s wps 10.24K ppl 1.06 gN 31.23 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:54:18 2018
+# Finished an epoch, step 94786. Perform external evaluation
+2018-08-09 19:54:28.902672: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:54:28.902672: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:54:28.902676: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-94000, time 0.10s
+  # 162
+    src: Sindrome horren jatorria zirkunboluzio fusiformean lesioa da .
+    ref: OK . Now that syndrome is well known as caused by damage to the fusiform gyrus .
+    nmt: And both one of the most challenges is him .
+2018-08-09 19:54:29.013008: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 19:54:29.013008: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:54:29.013008: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-94000, time 0.08s
+# External evaluation, global step 94000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:54:33 2018.
+  bleu dev: 1.5
+  rouge dev: 20.2
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 94000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:54:38 2018.
+  bleu test: 1.5
+  rouge test: 20.2
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 94800 lr 0.0001 step-time 0.12s wps 9.08K ppl 1.07 gN 36.19 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:54:41 2018
+  step 94900 lr 0.0001 step-time 0.11s wps 10.85K ppl 1.06 gN 28.25 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:54:52 2018
+# Finished an epoch, step 94952. Perform external evaluation
+2018-08-09 19:54:58.903069: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 19:54:58.903100: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:54:58.903163: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-94000, time 0.11s
+  # 656
+    src: Eta desberdintasun horren zergatia da bizi-kosturen desberdintasunak .
+    ref: And that &apos; s allowing for differences in the cost of living .
+    nmt: And so that &apos; s tell that you &apos; re going to see it in the
+2018-08-09 19:54:59.031734: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:54:59.031749: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 19:54:59.031734: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-94000, time 0.09s
+# External evaluation, global step 94000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:55:03 2018.
+  bleu dev: 1.5
+  rouge dev: 20.2
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 94000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:55:09 2018.
+  bleu test: 1.5
+  rouge test: 20.2
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 95000 lr 0.0001 step-time 0.13s wps 8.52K ppl 1.06 gN 30.42 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:55:16 2018
+# Save eval, global step 95000
+2018-08-09 19:55:16.913020: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:55:16.913020: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:55:16.913057: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-95000, time 0.09s
+  # 123
+    src: Zoragarria izan zen niretzako .
+    ref: I can &apos; t tell you how wonderful it was .
+    nmt: He was an old language language .
+2018-08-09 19:55:17.010667: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:55:17.010689: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded eval model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-95000, time 0.07s
+  eval dev: perplexity 10344426.51, time 1s, Thu Aug  9 19:55:18 2018.
+  eval test: perplexity 10344429.00, time 1s, Thu Aug  9 19:55:20 2018.
+2018-08-09 19:55:20.900431: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:55:20.900438: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:55:20.900519: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-95000, time 0.08s
+  # 255
+    src: Eta mugitzeko aginduek esaten dute besoa hor dagoela . Gatazka hori dela-eta , burmuinak erabakitzen du : “ Pikutara . Ez dago besorik . Ez dago fantasmarik ” .
+    ref: And your motor command saying there is an arm , and , because of this conflict , the brain says , to hell with it , there is no phantom , there is no arm , right ?
+    nmt: And we &apos; re going to just say the one . &quot; And this won &apos; t know this , we &apos; m just holding you , &quot;
+2018-08-09 19:55:21.048907: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:55:21.049091: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:55:21.048913: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-95000, time 0.08s
+# External evaluation, global step 95000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 3s, Thu Aug  9 19:55:24 2018.
+  bleu dev: 1.3
+  rouge dev: 20.1
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 95000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:55:29 2018.
+  bleu test: 1.3
+  rouge test: 20.1
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 95100 lr 0.0001 step-time 0.12s wps 9.45K ppl 1.06 gN 28.42 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:55:42 2018
+# Finished an epoch, step 95118. Perform external evaluation
+2018-08-09 19:55:45.124456: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 19:55:45.124456: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:55:45.124456: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-95000, time 0.09s
+  # 183
+    src: Bihotz-taupadak bizkortzen zaizkizu , izerditan hasten zara , ariketa fisikoaren ondoriozko muskuluen beroa arintzeko . Izerditan hasten zara . Beraz , esku-azpietan elektrodoak jar ditzakegu eta izerdiak sortutako larruazalaren konduktantzia neurtu .
+    ref: Your heart starts beating faster .
+    nmt: So you see what you want to come around that you &apos; ve come around that page , and it &apos; s page in that page , and you should come around the page to you see exactly your page to you come around .
+2018-08-09 19:55:45.330143: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:55:45.330143: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:55:45.330175: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-95000, time 0.10s
+# External evaluation, global step 95000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:55:50 2018.
+  bleu dev: 1.3
+  rouge dev: 20.1
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 95000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:55:55 2018.
+  bleu test: 1.3
+  rouge test: 20.1
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 95200 lr 0.0001 step-time 0.11s wps 9.88K ppl 1.06 gN 31.71 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:56:05 2018
+# Finished an epoch, step 95284. Perform external evaluation
+2018-08-09 19:56:14.412198: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:56:14.412204: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 19:56:14.412198: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-95000, time 0.10s
+  # 367
+    src: Baina oraindik ni , nire txorakerian , ni gauza horrekin marruskatu naiz batzuetan .
+    ref: But even I , in my mulishness , even I have brushed up against that thing , at times .
+    nmt: But so that say , I think that I could do really think for this .
+2018-08-09 19:56:14.541750: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:56:14.541750: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:56:14.541768: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-95000, time 0.09s
+# External evaluation, global step 95000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:56:19 2018.
+  bleu dev: 1.3
+  rouge dev: 20.1
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 95000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:56:24 2018.
+  bleu test: 1.3
+  rouge test: 20.1
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 95300 lr 0.0001 step-time 0.11s wps 9.88K ppl 1.06 gN 29.71 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:56:27 2018
+  step 95400 lr 0.0001 step-time 0.12s wps 9.40K ppl 1.06 gN 27.88 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:56:40 2018
+# Finished an epoch, step 95450. Perform external evaluation
+2018-08-09 19:56:45.839341: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 19:56:45.839341: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:56:45.839341: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-95000, time 0.06s
+  # 549
+    src: Zorionari buruzko filma bat da .
+    ref: It &apos; s a movie about happiness .
+    nmt: This is a only Germanic choice .
+2018-08-09 19:56:45.917935: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:56:45.917935: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:56:45.917941: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-95000, time 0.06s
+# External evaluation, global step 95000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 3s, Thu Aug  9 19:56:49 2018.
+  bleu dev: 1.3
+  rouge dev: 20.1
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 95000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 3s, Thu Aug  9 19:56:53 2018.
+  bleu test: 1.3
+  rouge test: 20.1
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 95500 lr 0.0001 step-time 0.12s wps 9.19K ppl 1.06 gN 29.98 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:57:01 2018
+  step 95600 lr 0.0001 step-time 0.13s wps 8.98K ppl 1.06 gN 28.44 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:57:14 2018
+# Finished an epoch, step 95616. Perform external evaluation
+2018-08-09 19:57:16.589282: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 19:57:16.589299: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:57:16.589299: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-95000, time 0.09s
+  # 106
+    src: Utzi nazazu bakean . &quot; Benetan , badakizue filosofi galdera zahar hori , basoan zuhaitz bat erori ezkero , eta inork entzun ez badu , benetan gertatu ahal da ?
+    ref: Actually , do you know that old philosophical thing , if a tree falls in a forest and nobody hears it , did it happen ? Remember that old chestnut ?
+    nmt: He said , &quot; How can you go to think a boy . &quot; Now I said , &quot; But this is a only world in the world and said , &quot; How said .
+2018-08-09 19:57:16.792955: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:57:16.792955: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:57:16.792970: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-95000, time 0.09s
+# External evaluation, global step 95000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:57:21 2018.
+  bleu dev: 1.3
+  rouge dev: 20.1
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 95000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:57:26 2018.
+  bleu test: 1.3
+  rouge test: 20.1
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 95700 lr 0.0001 step-time 0.11s wps 9.97K ppl 1.06 gN 30.68 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:57:35 2018
+# Finished an epoch, step 95782. Perform external evaluation
+2018-08-09 19:57:46.537244: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:57:46.537244: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:57:46.537244: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-95000, time 0.08s
+  # 400
+    src: Eta hau gertazten zenean , garai horietan , jendeak bazekien zer zen , badakizue , eta bere izenez deitzen zuten .
+    ref: And when this happened , back then , people knew it for what it was , you know , they called it by its name .
+    nmt: And when I remember this day that was so and I was again , and I see that , I see that was just two to see .
+2018-08-09 19:57:46.690532: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 19:57:46.690780: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:57:46.690781: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-95000, time 0.09s
+# External evaluation, global step 95000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:57:51 2018.
+  bleu dev: 1.3
+  rouge dev: 20.1
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 95000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:57:57 2018.
+  bleu test: 1.3
+  rouge test: 20.1
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 95800 lr 0.0001 step-time 0.13s wps 8.64K ppl 1.07 gN 32.54 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:58:00 2018
+  step 95900 lr 0.0001 step-time 0.11s wps 10.25K ppl 1.06 gN 26.63 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:58:11 2018
+# Finished an epoch, step 95948. Perform external evaluation
+2018-08-09 19:58:16.617185: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:58:16.617189: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 19:58:16.617220: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-95000, time 0.06s
+  # 273
+    src: Baina pertsona horiengan nahastu egiten dira . Zergatik ? Ezaugarri interesgarri pare bat du .
+    ref: Why does this happen ? One of the two aspects of this problem are very intriguing .
+    nmt: But the question is something that you think about it would think , maybe it &apos; s really easy ?
+2018-08-09 19:58:16.712001: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:58:16.712001: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:58:16.712015: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-95000, time 0.07s
+# External evaluation, global step 95000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:58:20 2018.
+  bleu dev: 1.3
+  rouge dev: 20.1
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 95000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 3s, Thu Aug  9 19:58:25 2018.
+  bleu test: 1.3
+  rouge test: 20.1
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 96000 lr 0.0001 step-time 0.12s wps 9.33K ppl 1.06 gN 29.38 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:58:32 2018
+# Save eval, global step 96000
+2018-08-09 19:58:33.163561: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:58:33.163572: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 19:58:33.163573: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-96000, time 0.08s
+  # 1
+    src: Guzti honek gaindituta nauka .
+    ref: In fact , I &apos; m leaving .
+    nmt: So what we have this to go .
+2018-08-09 19:58:33.254957: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:58:33.254959: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded eval model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-96000, time 0.07s
+  eval dev: perplexity 11345739.40, time 2s, Thu Aug  9 19:58:35 2018.
+  eval test: perplexity 11345741.29, time 2s, Thu Aug  9 19:58:37 2018.
+  step 96100 lr 0.0001 step-time 0.13s wps 9.14K ppl 1.06 gN 26.92 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:58:50 2018
+# Finished an epoch, step 96114. Perform external evaluation
+2018-08-09 19:58:51.884645: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:58:51.884653: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 19:58:51.884676: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-96000, time 0.08s
+  # 360
+    src: Sormen prozesu hau , zeozer sortzen saiatu diren guztiek dakiten bezala , — -hau da , hemen gauden guztiok — ez da beti arrazionalki portatzen .
+    ref: A process which , as anybody who has ever tried to make something — which is to say basically everyone here — - knows does not always behave rationally .
+    nmt: So you &apos; ve got the type of magnet to do that you don &apos; t see your life . This is you , you see that the — in which you are not very most side .
+2018-08-09 19:58:52.050850: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:58:52.050855: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:58:52.050905: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-96000, time 0.09s
+# External evaluation, global step 96000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:58:56 2018.
+  bleu dev: 1.3
+  rouge dev: 20.3
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 96000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 3s, Thu Aug  9 19:59:00 2018.
+  bleu test: 1.3
+  rouge test: 20.3
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 96200 lr 0.0001 step-time 0.12s wps 9.34K ppl 1.06 gN 29.94 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:59:11 2018
+# Finished an epoch, step 96280. Perform external evaluation
+2018-08-09 19:59:22.156579: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:59:22.156579: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:59:22.156616: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-96000, time 0.08s
+  # 475
+    src: Eta bost hilabete itxita sukaldari talde guztiarekin experimentatu ahal izateko .
+    ref: He closes it down for five months to experiment with a full kitchen staff .
+    nmt: And I thought that Herbie looked to have a relatives up the next .
+2018-08-09 19:59:22.295870: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:59:22.295914: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:59:22.295880: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-96000, time 0.10s
+# External evaluation, global step 96000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:59:27 2018.
+  bleu dev: 1.3
+  rouge dev: 20.3
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 96000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:59:32 2018.
+  bleu test: 1.3
+  rouge test: 20.3
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 96300 lr 0.0001 step-time 0.13s wps 8.83K ppl 1.06 gN 30.10 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:59:35 2018
+  step 96400 lr 0.0001 step-time 0.10s wps 10.86K ppl 1.06 gN 25.45 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 19:59:45 2018
+# Finished an epoch, step 96446. Perform external evaluation
+2018-08-09 19:59:51.717381: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:59:51.717382: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:59:51.717465: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-96000, time 0.10s
+  # 394
+    src: Eta beti ziren izugarriak , dantzariak profesionalak eta izugarriak zirelako ezta ?
+    ref: They were always magnificent , because the dancers were professionals and they were terrific , right ?
+    nmt: And the remaining asked that would happened for the events and this time isn &apos; t think ?
+2018-08-09 19:59:51.860379: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:59:51.860379: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 19:59:51.860395: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-96000, time 0.09s
+# External evaluation, global step 96000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 19:59:56 2018.
+  bleu dev: 1.3
+  rouge dev: 20.3
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 96000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:00:02 2018.
+  bleu test: 1.3
+  rouge test: 20.3
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 96500 lr 0.0001 step-time 0.13s wps 8.86K ppl 1.07 gN 32.44 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:00:10 2018
+  step 96600 lr 0.0001 step-time 0.11s wps 10.69K ppl 1.06 gN 25.99 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:00:20 2018
+# Finished an epoch, step 96612. Perform external evaluation
+2018-08-09 20:00:22.474530: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:00:22.474584: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 20:00:22.474530: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-96000, time 0.08s
+  # 514
+    src: Beraz , beti datoz bat , kontzeptualki , noski .
+    ref: So it will always fit together , conceptually , of course .
+    nmt: So this , the first people have up in my early responsibilities .
+2018-08-09 20:00:22.593352: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:00:22.593355: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 20:00:22.593361: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-96000, time 0.08s
+# External evaluation, global step 96000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:00:26 2018.
+  bleu dev: 1.3
+  rouge dev: 20.3
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 96000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:00:31 2018.
+  bleu test: 1.3
+  rouge test: 20.3
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 96700 lr 0.0001 step-time 0.13s wps 8.66K ppl 1.06 gN 32.58 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:00:43 2018
+# Finished an epoch, step 96778. Perform external evaluation
+2018-08-09 20:00:54.149786: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:00:54.149786: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:00:54.149838: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-96000, time 0.08s
+  # 919
+    src: Beste erronka bat ere badago , medikuntza arloan lantzea erosoa ez den bat .
+    ref: There &apos; s another challenge that not everyone in the medical profession is comfortable talking about .
+    nmt: And one one or being have to know , because you &apos; ve got a lot of process .
+2018-08-09 20:00:54.263642: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:00:54.263642: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:00:54.263652: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-96000, time 0.09s
+# External evaluation, global step 96000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:00:58 2018.
+  bleu dev: 1.3
+  rouge dev: 20.3
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 96000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 3s, Thu Aug  9 20:01:02 2018.
+  bleu test: 1.3
+  rouge test: 20.3
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 96800 lr 0.0001 step-time 0.13s wps 8.78K ppl 1.06 gN 31.74 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:01:05 2018
+  step 96900 lr 0.0001 step-time 0.12s wps 9.64K ppl 1.06 gN 25.79 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:01:18 2018
+# Finished an epoch, step 96944. Perform external evaluation
+2018-08-09 20:01:24.046397: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:01:24.046433: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 20:01:24.046446: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-96000, time 0.09s
+  # 95
+    src: Lehena , anitza dela .
+    ref: One , it &apos; s diverse .
+    nmt: This is quite bad at the solution .
+2018-08-09 20:01:24.159140: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:01:24.159140: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:01:24.159151: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-96000, time 0.09s
+# External evaluation, global step 96000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:01:28 2018.
+  bleu dev: 1.3
+  rouge dev: 20.3
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 96000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:01:34 2018.
+  bleu test: 1.3
+  rouge test: 20.3
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 97000 lr 0.0001 step-time 0.12s wps 9.23K ppl 1.06 gN 29.78 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:01:41 2018
+# Save eval, global step 97000
+2018-08-09 20:01:41.587857: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:01:41.587857: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:01:41.587873: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-97000, time 0.07s
+  # 670
+    src: Norbaitek pentsa dezake Dibergentzia Handia azal dezakegula geografikoki .
+    ref: You may think we can explain the Great Divergence in terms of geography .
+    nmt: Then every big effects that you can be in your book .
+2018-08-09 20:01:41.659713: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:01:41.659733: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded eval model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-97000, time 0.05s
+  eval dev: perplexity 10056194.40, time 1s, Thu Aug  9 20:01:43 2018.
+  eval test: perplexity 10056196.11, time 1s, Thu Aug  9 20:01:45 2018.
+  step 97100 lr 0.0001 step-time 0.12s wps 10.03K ppl 1.06 gN 26.50 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:01:56 2018
+# Finished an epoch, step 97110. Perform external evaluation
+2018-08-09 20:01:58.277792: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:01:58.277829: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 20:01:58.277848: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-97000, time 0.08s
+  # 128
+    src: Ondoren Royal Ballet School-en graduatu eta bere konpainia propioa fundatu zuen — Gillian Lynne Dance Company — eta Andrew Lloyd Weber ezagutu .
+    ref: She eventually graduated from the Royal Ballet School , founded the Gillian Lynne Dance Company , met Andrew Lloyd Webber .
+    nmt: And one of one I was really used to the head — I really met about one people — and one one , I &apos; m going to be one of them one .
+2018-08-09 20:01:58.446803: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:01:58.446803: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:01:58.446805: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-97000, time 0.09s
+# External evaluation, global step 97000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:02:03 2018.
+  bleu dev: 1.5
+  rouge dev: 20.2
+  accuracy dev: 0.4
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 97000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:02:08 2018.
+  bleu test: 1.5
+  rouge test: 20.2
+  accuracy test: 0.4
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 97200 lr 0.0001 step-time 0.13s wps 8.72K ppl 1.06 gN 32.43 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:02:20 2018
+# Finished an epoch, step 97276. Perform external evaluation
+2018-08-09 20:02:29.071540: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:02:29.071607: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 20:02:29.071540: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-97000, time 0.08s
+  # 386
+    src: Ez txarra soilik , inoiz idatzi zen okerrena .
+    ref: Not just bad , but the worst book ever written .
+    nmt: Because he was the problem of those , it didn &apos; t have a .
+2018-08-09 20:02:29.189273: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:02:29.189287: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 20:02:29.189273: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-97000, time 0.08s
+# External evaluation, global step 97000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 3s, Thu Aug  9 20:02:32 2018.
+  bleu dev: 1.5
+  rouge dev: 20.2
+  accuracy dev: 0.4
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 97000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 3s, Thu Aug  9 20:02:37 2018.
+  bleu test: 1.5
+  rouge test: 20.2
+  accuracy test: 0.4
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 97300 lr 0.0001 step-time 0.12s wps 9.33K ppl 1.06 gN 30.08 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:02:41 2018
+  step 97400 lr 0.0001 step-time 0.13s wps 9.00K ppl 1.06 gN 26.62 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:02:54 2018
+# Finished an epoch, step 97442. Perform external evaluation
+2018-08-09 20:02:59.966851: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:02:59.966851: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:02:59.966878: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-97000, time 0.09s
+  # 566
+    src: Harritu egingo ninduke erakutsiko ditudan zenbait ez bazenituzte ezagutuko .
+    ref: I &apos; d be extremely surprised if you didn &apos; t recognize many or most of them .
+    nmt: I mean , you &apos; m not even idea to tell you some family .
+2018-08-09 20:03:00.096859: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 20:03:00.096859: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:03:00.096859: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-97000, time 0.08s
+# External evaluation, global step 97000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:03:04 2018.
+  bleu dev: 1.5
+  rouge dev: 20.2
+  accuracy dev: 0.4
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 97000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:03:09 2018.
+  bleu test: 1.5
+  rouge test: 20.2
+  accuracy test: 0.4
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 97500 lr 0.0001 step-time 0.12s wps 9.48K ppl 1.06 gN 29.76 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:03:16 2018
+  step 97600 lr 0.0001 step-time 0.12s wps 9.73K ppl 1.06 gN 27.77 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:03:28 2018
+# Finished an epoch, step 97608. Perform external evaluation
+2018-08-09 20:03:29.757228: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:03:29.757234: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:03:29.757275: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-97000, time 0.08s
+  # 480
+    src: Zeloa programa hontatik irten zen , era berean , Art Fry-ek paper itsakorrak garatu zituen 3M-ek ematen zion denbora pertsonal horretan Google-k , ezaguna den bezala % 20-a ematen die bere software ingenieriei baraien proiektu pertsonalak jarraitu ditzaten .
+    ref: Scotch tape came out of this program , as well as Art Fry developed sticky notes from during his personal time for 3M . Google , of course , very famously gives 20 percent for their software engineers to pursue their own personal projects .
+    nmt: They come to change cooking , one thing is an heart , and then it turns to be able to an Africans of the streets — and one if it would be be one idea — but one thing to support up in the next idea .
+2018-08-09 20:03:29.983448: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:03:29.983449: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:03:29.983471: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-97000, time 0.10s
+# External evaluation, global step 97000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:03:34 2018.
+  bleu dev: 1.5
+  rouge dev: 20.2
+  accuracy dev: 0.4
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 97000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:03:40 2018.
+  bleu test: 1.5
+  rouge test: 20.2
+  accuracy test: 0.4
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 97700 lr 0.0001 step-time 0.12s wps 9.50K ppl 1.05 gN 27.86 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:03:51 2018
+# Finished an epoch, step 97774. Perform external evaluation
+2018-08-09 20:03:59.615368: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:03:59.615368: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:03:59.615376: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-97000, time 0.08s
+  # 804
+    src: Erabateko basakeria ikusi nuen Ruandan .
+    ref: I saw in Rwanda total brutality .
+    nmt: I &apos; ve seen with deafness baby .
+2018-08-09 20:03:59.726246: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:03:59.726246: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:03:59.726385: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-97000, time 0.09s
+# External evaluation, global step 97000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 3s, Thu Aug  9 20:04:03 2018.
+  bleu dev: 1.5
+  rouge dev: 20.2
+  accuracy dev: 0.4
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 97000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:04:08 2018.
+  bleu test: 1.5
+  rouge test: 20.2
+  accuracy test: 0.4
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 97800 lr 0.0001 step-time 0.12s wps 9.85K ppl 1.06 gN 30.72 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:04:13 2018
+  step 97900 lr 0.0001 step-time 0.13s wps 9.05K ppl 1.06 gN 26.79 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:04:26 2018
+# Finished an epoch, step 97940. Perform external evaluation
+2018-08-09 20:04:30.738747: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 20:04:30.738764: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:04:30.738764: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-97000, time 0.08s
+  # 123
+    src: Zoragarria izan zen niretzako .
+    ref: I can &apos; t tell you how wonderful it was .
+    nmt: He was a little bit language really taken .
+2018-08-09 20:04:30.844985: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:04:30.845002: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 20:04:30.844985: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-97000, time 0.08s
+# External evaluation, global step 97000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 3s, Thu Aug  9 20:04:34 2018.
+  bleu dev: 1.5
+  rouge dev: 20.2
+  accuracy dev: 0.4
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 97000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:04:39 2018.
+  bleu test: 1.5
+  rouge test: 20.2
+  accuracy test: 0.4
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 98000 lr 0.0001 step-time 0.12s wps 9.37K ppl 1.05 gN 29.49 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:04:47 2018
+# Save eval, global step 98000
+2018-08-09 20:04:47.953469: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:04:47.953469: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:04:47.953495: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-98000, time 0.10s
+  # 487
+    src: Gero , ahal izan nuen pertsona kopuru zabalenari kontatu nion ondoren kokiltzeko aukerarik ez izateko .
+    ref: And then I told as many , many people as I possibly could about it so that there was no way that I could chicken out later on .
+    nmt: And I &apos; ve got a long time and you may say , and you actually walk , how an body .
+2018-08-09 20:04:48.074411: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:04:48.074413: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded eval model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-98000, time 0.06s
+  eval dev: perplexity 12115409.30, time 2s, Thu Aug  9 20:04:50 2018.
+  eval test: perplexity 12115405.50, time 2s, Thu Aug  9 20:04:52 2018.
+  step 98100 lr 0.0001 step-time 0.13s wps 8.94K ppl 1.06 gN 27.81 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:05:05 2018
+# Finished an epoch, step 98106. Perform external evaluation
+2018-08-09 20:05:06.167162: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:05:06.167188: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 20:05:06.167162: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-98000, time 0.09s
+  # 126
+    src: Pentsatzeko mugitu beharra zutenak . &quot; Balleta , dit tap , jazz , modernoa , dantza garaikidea egin zuten .
+    ref: People who had to move to think . &quot; Who had to move to think . They did ballet , they did tap , jazz ; they did modern ; they did contemporary .
+    nmt: I think you thought , I need all to be a simple love , and some ones on the world are love .
+2018-08-09 20:05:06.346816: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:05:06.346820: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:05:06.346830: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-98000, time 0.09s
+# External evaluation, global step 98000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:05:10 2018.
+  bleu dev: 1.4
+  rouge dev: 20.2
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 98000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 3s, Thu Aug  9 20:05:14 2018.
+  bleu test: 1.4
+  rouge test: 20.2
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 98200 lr 0.0001 step-time 0.12s wps 9.39K ppl 1.05 gN 27.06 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:05:26 2018
+# Finished an epoch, step 98272. Perform external evaluation
+2018-08-09 20:05:35.998902: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:05:35.998914: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:05:35.998941: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-98000, time 0.08s
+  # 464
+    src: Eta iman bat izkutatzen zuten katiluak egin genituen , honek iparrorratzak erotu egiten ditu beti katilua seinalatuz .
+    ref: And we had custom espresso cups made that hide a magnet inside , and make those compasses go crazy , always centering on them .
+    nmt: And I &apos; m really used to push the Internet to get that this , that &apos; s actually actually much out .
+2018-08-09 20:05:36.147680: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:05:36.147680: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:05:36.147688: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-98000, time 0.09s
+# External evaluation, global step 98000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:05:40 2018.
+  bleu dev: 1.4
+  rouge dev: 20.2
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 98000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:05:46 2018.
+  bleu test: 1.4
+  rouge test: 20.2
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 98300 lr 0.0001 step-time 0.13s wps 8.89K ppl 1.06 gN 30.92 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:05:50 2018
+  step 98400 lr 0.0001 step-time 0.11s wps 10.91K ppl 1.06 gN 27.10 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:06:01 2018
+# Finished an epoch, step 98438. Perform external evaluation
+2018-08-09 20:06:05.362519: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:06:05.362540: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:06:05.362588: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-98000, time 0.10s
+  # 508
+    src: Maskara bat ipini genion , tokian bertan sakonki aztertu genuen , alde guztiak miatu genituen mendebala , iparra , hegoa , ekialdea gainetik eta azpitik .
+    ref: We put a mask on it , looked at it deep down in the ground , checked it out from all sides , west , north , south , east , top and bottom .
+    nmt: Now we were on all on the long way , and I &apos; d just told you all one , I just told you , go , and all my things on the next side .
+2018-08-09 20:06:05.541922: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:06:05.541922: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:06:05.541930: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-98000, time 0.10s
+# External evaluation, global step 98000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:06:09 2018.
+  bleu dev: 1.4
+  rouge dev: 20.2
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 98000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:06:14 2018.
+  bleu test: 1.4
+  rouge test: 20.2
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 98500 lr 0.0001 step-time 0.12s wps 9.00K ppl 1.05 gN 27.50 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:06:23 2018
+  step 98600 lr 0.0001 step-time 0.13s wps 9.05K ppl 1.05 gN 25.35 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:06:36 2018
+# Finished an epoch, step 98604. Perform external evaluation
+2018-08-09 20:06:37.313206: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:06:37.313210: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 20:06:37.313289: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-98000, time 0.08s
+  # 487
+    src: Gero , ahal izan nuen pertsona kopuru zabalenari kontatu nion ondoren kokiltzeko aukerarik ez izateko .
+    ref: And then I told as many , many people as I possibly could about it so that there was no way that I could chicken out later on .
+    nmt: And I &apos; ve got a long time and you may say , and you actually walk , how an body .
+2018-08-09 20:06:37.451679: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:06:37.451697: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:06:37.451679: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-98000, time 0.08s
+# External evaluation, global step 98000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:06:41 2018.
+  bleu dev: 1.4
+  rouge dev: 20.2
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 98000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 3s, Thu Aug  9 20:06:45 2018.
+  bleu test: 1.4
+  rouge test: 20.2
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 98700 lr 0.0001 step-time 0.12s wps 9.35K ppl 1.05 gN 29.43 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:06:57 2018
+# Finished an epoch, step 98770. Perform external evaluation
+2018-08-09 20:07:07.374755: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:07:07.374774: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 20:07:07.374792: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-98000, time 0.08s
+  # 11
+    src: Pentsatuz gero , aurten eskolan hasitako umeak 2065 urtera arte egingo dute lan .
+    ref: If you think of it , children starting school this year will be retiring in 2065 .
+    nmt: We looks that left on the five man friend , and I &apos; m going to make this friend .
+2018-08-09 20:07:07.537760: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:07:07.537766: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 20:07:07.537760: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-98000, time 0.10s
+# External evaluation, global step 98000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:07:12 2018.
+  bleu dev: 1.4
+  rouge dev: 20.2
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 98000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:07:17 2018.
+  bleu test: 1.4
+  rouge test: 20.2
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 98800 lr 0.0001 step-time 0.13s wps 8.78K ppl 1.06 gN 30.92 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:07:21 2018
+  step 98900 lr 0.0001 step-time 0.11s wps 10.92K ppl 1.05 gN 25.98 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:07:32 2018
+# Finished an epoch, step 98936. Perform external evaluation
+2018-08-09 20:07:36.862507: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:07:36.862546: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 20:07:36.862507: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-98000, time 0.10s
+  # 1036
+    src: Mila esker .
+    ref: Thank you .
+    nmt: Thank you very much .
+2018-08-09 20:07:36.982007: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:07:36.982007: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:07:36.982015: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-98000, time 0.10s
+# External evaluation, global step 98000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:07:41 2018.
+  bleu dev: 1.4
+  rouge dev: 20.2
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 98000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:07:47 2018.
+  bleu test: 1.4
+  rouge test: 20.2
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 99000 lr 0.0001 step-time 0.13s wps 8.79K ppl 1.06 gN 28.35 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:07:56 2018
+# Save eval, global step 99000
+2018-08-09 20:07:56.766384: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:07:56.766391: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:07:56.766384: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-99000, time 0.10s
+  # 254
+    src: Beste aldetik , muskuluek ez diote igortzen itzuleraren seinalerik .
+    ref: On the other hand , there &apos; s no proprioception , muscle signals saying that there is no arm , right ?
+    nmt: For example , you &apos; re actually a very big solution of an health .
+2018-08-09 20:07:56.879344: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 20:07:56.879344: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded eval model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-99000, time 0.06s
+  eval dev: perplexity 12630894.03, time 1s, Thu Aug  9 20:07:58 2018.
+  eval test: perplexity 12630894.99, time 1s, Thu Aug  9 20:08:00 2018.
+  step 99100 lr 0.0001 step-time 0.11s wps 10.87K ppl 1.06 gN 28.22 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:08:10 2018
+# Finished an epoch, step 99102. Perform external evaluation
+2018-08-09 20:08:11.440686: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:08:11.440701: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 20:08:11.440705: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-99000, time 0.09s
+  # 651
+    src: Eta grafiko honek 1500. urte arte barne hartzen du .
+    ref: And this chart goes back to 1500 .
+    nmt: And so she starts showing you take a large form of this century .
+2018-08-09 20:08:11.559522: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:08:11.559522: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:08:11.559535: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-99000, time 0.09s
+# External evaluation, global step 99000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 3s, Thu Aug  9 20:08:15 2018.
+  bleu dev: 1.5
+  rouge dev: 20.1
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 99000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:08:20 2018.
+  bleu test: 1.5
+  rouge test: 20.1
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 99200 lr 0.0001 step-time 0.13s wps 8.61K ppl 1.05 gN 28.04 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:08:34 2018
+# Finished an epoch, step 99268. Perform external evaluation
+2018-08-09 20:08:42.726867: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:08:42.726867: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 20:08:42.726995: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-99000, time 0.08s
+  # 467
+    src: Era berean , erabat konsziente naiz zein aspergarria den beste pertsonen zorionari buruz entzutea .
+    ref: And at the same time , I &apos; m extremely aware how boring it is to hear about other people &apos; s happinesses .
+    nmt: So so super important needs out for there &apos; s going to be our kind of being being so like our day .
+2018-08-09 20:08:42.865887: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:08:42.865887: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:08:42.865887: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-99000, time 0.09s
+# External evaluation, global step 99000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:08:46 2018.
+  bleu dev: 1.5
+  rouge dev: 20.1
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 99000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 3s, Thu Aug  9 20:08:51 2018.
+  bleu test: 1.5
+  rouge test: 20.1
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 99300 lr 0.0001 step-time 0.12s wps 9.39K ppl 1.06 gN 29.67 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:08:55 2018
+  step 99400 lr 0.0001 step-time 0.13s wps 8.87K ppl 1.05 gN 24.44 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:09:08 2018
+# Finished an epoch, step 99434. Perform external evaluation
+2018-08-09 20:09:13.259506: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:09:13.259506: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:09:13.259549: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-99000, time 0.08s
+  # 71
+    src: Nire esperientziak diost irakasle gehientsuenak bere buruetan bizi direla soilik .
+    ref: There &apos; s something curious about professors in my experience — not all of them , but typically , they live in their heads .
+    nmt: So I think that are the big family is becoming my own resilience .
+2018-08-09 20:09:13.378378: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:09:13.378412: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 20:09:13.378378: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-99000, time 0.08s
+# External evaluation, global step 99000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:09:18 2018.
+  bleu dev: 1.5
+  rouge dev: 20.1
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 99000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:09:23 2018.
+  bleu test: 1.5
+  rouge test: 20.1
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 99500 lr 0.0001 step-time 0.12s wps 9.63K ppl 1.06 gN 31.67 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:09:30 2018
+  step 99600 lr 0.0001 step-time 0.12s wps 9.83K ppl 1.06 gN 30.68 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:09:42 2018
+# Finished an epoch, step 99600. Perform external evaluation
+2018-08-09 20:09:42.724660: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:09:42.724683: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:09:42.724723: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-99000, time 0.08s
+  # 907
+    src: Baina artean bazen arazo bat .
+    ref: But there was still a problem .
+    nmt: But we &apos; ve sketched up in a .
+2018-08-09 20:09:42.831791: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:09:42.831802: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 20:09:42.831791: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-99000, time 0.08s
+# External evaluation, global step 99000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:09:47 2018.
+  bleu dev: 1.5
+  rouge dev: 20.1
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 99000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:09:53 2018.
+  bleu test: 1.5
+  rouge test: 20.1
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 99700 lr 0.0001 step-time 0.12s wps 9.55K ppl 1.05 gN 25.29 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:10:05 2018
+# Finished an epoch, step 99766. Perform external evaluation
+2018-08-09 20:10:13.711611: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:10:13.711611: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:10:13.711617: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-99000, time 0.08s
+  # 191
+    src: Mahaia edo euritakoa bada ez zara izerditan hasiko . Lehoi baten edo biluzi baten irudia erakutsiz gero , izerditan hasiko zarete .
+    ref: If I show you a picture of a lion , or a tiger , or a pinup , you start sweating , right ?
+    nmt: If you &apos; re going to give you about the one that you &apos; ve just not to do it in the experience you , and to you use to you so how it &apos; s going to .
+2018-08-09 20:10:13.875752: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 20:10:13.875752: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:10:13.875752: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-99000, time 0.09s
+# External evaluation, global step 99000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 3s, Thu Aug  9 20:10:17 2018.
+  bleu dev: 1.5
+  rouge dev: 20.1
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 99000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:10:22 2018.
+  bleu test: 1.5
+  rouge test: 20.1
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 99800 lr 0.0001 step-time 0.12s wps 9.45K ppl 1.06 gN 31.29 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:10:27 2018
+  step 99900 lr 0.0001 step-time 0.13s wps 9.02K ppl 1.05 gN 25.65 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:10:40 2018
+# Finished an epoch, step 99932. Perform external evaluation
+2018-08-09 20:10:44.434886: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:10:44.434889: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 20:10:44.434911: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-99000, time 0.09s
+  # 513
+    src: Eta hori , Beethoven-en poster bat diseinatu behar duzunean oso erabilgarria da , logoan azaltzen den informazio bisuala eta posterreakoa , berdin-berdinak bait dira .
+    ref: Which , when you actually have to design a Beethoven poster , comes in handy , because the visual information of the logo and the actual poster is exactly the same .
+    nmt: And then , we &apos; ve just quite all if you &apos; ve just experienced to this one machine in the particular one hours , which that go to become this , you just make a little bit of life .
+2018-08-09 20:10:44.651193: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:10:44.651201: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:10:44.651210: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-99000, time 0.11s
+# External evaluation, global step 99000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:10:49 2018.
+  bleu dev: 1.5
+  rouge dev: 20.1
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 99000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:10:54 2018.
+  bleu test: 1.5
+  rouge test: 20.1
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+  step 100000 lr 0.0001 step-time 0.13s wps 8.70K ppl 1.05 gN 27.38 bleu 1.95, rouge 22.30, accuracy 0.48, Thu Aug  9 20:11:03 2018
+# Save eval, global step 100000
+2018-08-09 20:11:04.129190: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:11:04.129252: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:11:04.129253: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-100000, time 0.11s
+  # 902
+    src: Hau unibertsitateko ospitalean erditzera doan emakume bat da , eta uteroko kontrakzioak ohiko gerriko baten bidez monitarizatzen ari zaizkie .
+    ref: Here is a picture of a pregnant woman in labor at our university hospital being monitored for her uterine contractions with the conventional belt .
+    nmt: And in the United days , this is showing up in that you can get this in exactly this issues where there &apos; s actually a big big number of life .
+2018-08-09 20:11:04.303072: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:11:04.303106: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded eval model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-100000, time 0.07s
+  eval dev: perplexity 12285558.60, time 2s, Thu Aug  9 20:11:06 2018.
+  eval test: perplexity 12285557.60, time 2s, Thu Aug  9 20:11:09 2018.
+2018-08-09 20:11:09.743662: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:11:09.743765: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 20:11:09.743811: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-100000, time 0.13s
+  # 573
+    src: Jende askoren ustez ingurugiroa zaintzeko mugimendua planeta horrela ikustean sortu zen , bere txikitasunean , bere hauskortasunean .
+    ref: Many people credit a lot of the birth of the environmental movement to our seeing the planet like this for the first time — its smallness , its fragility .
+    nmt: So of the last way that would be this asked this person , and to be a last of this would be showing , and identifying possible .
+2018-08-09 20:11:09.982886: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 20:11:09.982886: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:11:09.983062: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-100000, time 0.12s
+# External evaluation, global step 100000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 7s, Thu Aug  9 20:11:16 2018.
+  bleu dev: 1.6
+  rouge dev: 20.5
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 100000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 5s, Thu Aug  9 20:11:23 2018.
+  bleu test: 1.6
+  rouge test: 20.5
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+2018-08-09 20:11:24.715108: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:11:24.715108: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:11:24.715108: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-100000, time 0.11s
+  # 268
+    src: Guztiz normalak dira gainerako arloetan .
+    ref: Bear in mind , these people are completely normal in other respects .
+    nmt: And we are donating things that are already .
+2018-08-09 20:11:24.799662: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:11:24.799668: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded eval model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-100000, time 0.06s
+  eval dev: perplexity 12285559.31, time 2s, Thu Aug  9 20:11:26 2018.
+  eval test: perplexity 12285563.57, time 2s, Thu Aug  9 20:11:28 2018.
+2018-08-09 20:11:28.930951: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:11:28.930964: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 20:11:28.930987: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/translate.ckpt-100000, time 0.09s
+# External evaluation, global step 100000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:11:33 2018.
+  bleu dev: 1.6
+  rouge dev: 20.5
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 100000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:11:38 2018.
+  bleu test: 1.6
+  rouge test: 20.5
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# Final, step 100000 lr 0.0001 step-time 0.13s wps 8.70K ppl 1.05 gN 27.38 dev ppl 12285559.31, dev bleu 1.6, dev rouge 20.5, dev accuracy 0.2, test ppl 12285563.57, test bleu 1.6, test rouge 20.5, test accuracy 0.2, Thu Aug  9 20:11:39 2018
+# Done training!, time 18963s, Thu Aug  9 20:11:39 2018.
+# Start evaluating saved best models.
+2018-08-09 20:11:39.674636: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:11:39.674676: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 20:11:39.674907: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/best_bleu/translate.ckpt-12000, time 0.09s
+  # 991
+    src: Badakit nire familiari ahotsa jarri behar diodala , eta egiten nekien bakarra egin nuen : komunikabideetan lan egiten zuten ezagun guztiei Facebooketik mezu bat bidali nien .
+    ref: I know that I have to give my family voice , and I do the only thing I know how : I send a Facebook message to everyone I know in media .
+    nmt: I &apos; m sorry , I had me to my mother , I &apos; m sorry , I had me , I &apos; m sorry , I had me to be , and I was my mother .
+2018-08-09 20:11:39.811441: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 20:11:39.811448: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded eval model parameters from /hdd/data/iwslt18/models/word.50k.v3/best_bleu/translate.ckpt-12000, time 0.06s
+  eval dev: perplexity 1021.40, time 1s, Thu Aug  9 20:11:41 2018.
+  eval test: perplexity 1021.40, time 1s, Thu Aug  9 20:11:43 2018.
+2018-08-09 20:11:43.130049: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:11:43.130090: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:11:43.130105: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/best_bleu/translate.ckpt-12000, time 0.07s
+# External evaluation, global step 12000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 3s, Thu Aug  9 20:11:47 2018.
+  bleu dev: 1.9
+  rouge dev: 21.4
+  accuracy dev: 0.3
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 12000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 3s, Thu Aug  9 20:11:51 2018.
+  bleu test: 1.9
+  rouge test: 21.4
+  accuracy test: 0.3
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# Best bleu, step 12000 lr 0.0001 step-time 0.13s wps 8.70K ppl 1.05 gN 27.38 dev ppl 1021.40, dev bleu 1.9, dev rouge 21.4, dev accuracy 0.3, test ppl 1021.40, test bleu 1.9, test rouge 21.4, test accuracy 0.3, Thu Aug  9 20:11:52 2018
+2018-08-09 20:11:52.807725: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:11:52.807725: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 20:11:52.808126: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/best_rouge/translate.ckpt-7000, time 0.10s
+  # 538
+    src: Ondoren , Amsterdam-eko hiriak plaza bat eman zigun eta zerbait egiteko eskatu .
+    ref: And then the city of Amsterdam gave us a plaza and asked us to do something .
+    nmt: It was a lot , and he was a very bit , and he was a grandmother .
+2018-08-09 20:11:52.912166: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 20:11:52.912174: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded eval model parameters from /hdd/data/iwslt18/models/word.50k.v3/best_rouge/translate.ckpt-7000, time 0.06s
+  eval dev: perplexity 453.94, time 2s, Thu Aug  9 20:11:55 2018.
+  eval test: perplexity 453.94, time 2s, Thu Aug  9 20:11:57 2018.
+2018-08-09 20:11:57.267397: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:11:57.267419: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:11:57.267507: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/best_rouge/translate.ckpt-7000, time 0.11s
+# External evaluation, global step 7000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:12:02 2018.
+  bleu dev: 1.9
+  rouge dev: 22.3
+  accuracy dev: 0.1
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 7000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:12:07 2018.
+  bleu test: 1.9
+  rouge test: 22.3
+  accuracy test: 0.1
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# Best rouge, step 7000 lr 0.0001 step-time 0.13s wps 8.70K ppl 1.05 gN 27.38 dev ppl 453.94, dev bleu 1.9, dev rouge 22.3, dev accuracy 0.1, test ppl 453.94, test bleu 1.9, test rouge 22.3, test accuracy 0.1, Thu Aug  9 20:12:08 2018
+2018-08-09 20:12:08.777697: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:12:08.777703: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 20:12:08.777705: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/best_accuracy/translate.ckpt-24000, time 0.09s
+  # 489
+    src: Japoniako diseinu aldizkarietara gutunak bidali eta horrelako gauzak .
+    ref: Sending mail to Japanese design magazines and things like that .
+    nmt: A kids would get that and I try up in Afghanistan .
+2018-08-09 20:12:08.888559: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+2018-08-09 20:12:08.888560: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+  loaded eval model parameters from /hdd/data/iwslt18/models/word.50k.v3/best_accuracy/translate.ckpt-24000, time 0.07s
+  eval dev: perplexity 7255.81, time 2s, Thu Aug  9 20:12:10 2018.
+  eval test: perplexity 7255.81, time 2s, Thu Aug  9 20:12:12 2018.
+2018-08-09 20:12:13.075450: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:12:13.075471: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.en is already initialized.
+2018-08-09 20:12:13.075578: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/word.50k.v3/vocab.50k.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/word.50k.v3/best_accuracy/translate.ckpt-24000, time 0.09s
+# External evaluation, global step 24000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_dev.
+  done, num sentences 1037, num translations per input 1, time 4s, Thu Aug  9 20:12:17 2018.
+  bleu dev: 1.8
+  rouge dev: 20.7
+  accuracy dev: 0.5
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# External evaluation, global step 24000
+  decoding to output /hdd/data/iwslt18/models/word.50k.v3/output_test.
+  done, num sentences 1037, num translations per input 1, time 3s, Thu Aug  9 20:12:21 2018.
+  bleu test: 1.8
+  rouge test: 20.7
+  accuracy test: 0.5
+  saving hparams to /hdd/data/iwslt18/models/word.50k.v3/hparams
+# Best accuracy, step 24000 lr 0.0001 step-time 0.13s wps 8.70K ppl 1.05 gN 27.38 dev ppl 7255.81, dev bleu 1.8, dev rouge 20.7, dev accuracy 0.5, test ppl 7255.81, test bleu 1.8, test rouge 20.7, test accuracy 0.5, Thu Aug  9 20:12:22 2018
