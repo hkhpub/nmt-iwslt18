@@ -69,7 +69,6 @@ class BaseModel(object):
         self.src_vocab_size = hparams.src_vocab_size
         self.tgt_vocab_size = hparams.tgt_vocab_size
         self.num_gpus = hparams.num_gpus
-        self.base_gpu = hparams.base_gpu
         self.time_major = hparams.time_major
 
         # extra_args: to make it flexible for adding external customizable code
@@ -594,7 +593,8 @@ class Model(BaseModel):
                         dtype=dtype,
                         hparams=hparams,
                         num_bi_layers=num_bi_layers,
-                        num_bi_residual_layers=num_bi_residual_layers))
+                        num_bi_residual_layers=num_bi_residual_layers,
+                        base_gpu=hparams.base_gpu))
 
                 if num_bi_layers == 1:
                     encoder_state = bi_encoder_state
@@ -666,7 +666,7 @@ class Model(BaseModel):
             dropout=hparams.dropout,
             num_gpus=self.num_gpus,
             mode=self.mode,
-            base_gpu=0,
+            base_gpu=hparams.base_gpu,
             single_cell_fn=self.single_cell_fn)
 
         # For beam search, we need to replicate encoder infos beam_width times

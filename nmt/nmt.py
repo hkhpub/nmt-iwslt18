@@ -395,6 +395,8 @@ def extend_hparams(hparams):
 
     if "base_gpu" not in hparams:
         hparams.add_hparam("base_gpu", 0)
+    print("base gpu ------------------------------------------")
+    print(hparams.base_gpu)
 
     # Set residual layers
     num_encoder_residual_layers = 0
