@@ -213,6 +213,8 @@ def add_arguments(parser):
     # Misc
     parser.add_argument("--num_gpus", type=int, default=1,
                         help="Number of gpus in each worker.")
+    parser.add_argument("--base_gpu", type=int, default=0,
+                        help="GPU device number")
     parser.add_argument("--log_device_placement", type="bool", nargs="?",
                         const=True, default=False, help="Debug GPU allocation.")
     parser.add_argument("--metrics", type=str, default="bleu",
