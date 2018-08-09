@@ -355,6 +355,7 @@ def create_hparams(flags):
         # Misc
         forget_bias=flags.forget_bias,
         num_gpus=flags.num_gpus,
+        base_gpu=flags.base_gpu,
         epoch_step=0,  # record where we were within an epoch.
         steps_per_stats=flags.steps_per_stats,
         steps_per_external_eval=flags.steps_per_external_eval,
