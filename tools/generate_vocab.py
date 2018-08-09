@@ -91,4 +91,5 @@ if args.max_vocab_size is not None:
   word_with_counts = word_with_counts[:args.max_vocab_size]
 
 for word, count in word_with_counts:
-  print("{}\t{}".format(word, count))
+  # print("{}\t{}".format(word, count))
+  print("{}".format(word))
