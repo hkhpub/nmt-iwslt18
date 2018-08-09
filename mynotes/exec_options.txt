@@ -1,0 +1,48 @@
+# In-domain BPE(sennrich) 단위 모델
+
+export DATA_DIR=/hdd/data/iwslt18/data.tok
+export MODEL_DIR=/hdd/data/iwslt18/models/bpe.8k
+
+python -m nmt.nmt \
+--src=eu \
+--tgt=en \
+--vocab_prefix=${DATA_DIR}/vocab.bpe.8000 \
+--train_prefix=${DATA_DIR}/train.tok.bpe.8000 \
+--dev_prefix=${DATA_DIR}/dev.tok.bpe.8000 \
+--test_prefix=${DATA_DIR}/dev.tok.bpe.8000 \
+--out_dir=${MODEL_DIR} \
+--hparams_path=hparams_iwslt18/iwslt18_eu_en.json \
+--num_train_steps=100000 \
+--start_decay_step=50000 \
+--decay_steps=5000 \
+--subword_option=bpe
+
+
+# In-domain Word 단위 모델
+
+export DATA_DIR=/hdd/data/iwslt18/data.tok
+export MODEL_DIR=/hdd/data/iwslt18/models/word.50k
+
+python -m nmt.nmt \
+--src=eu \
+--tgt=en \
+--vocab_prefix=${DATA_DIR}/vocab.50k \
+--train_prefix=${DATA_DIR}/train.tok.clean \
+--dev_prefix=${DATA_DIR}/dev.tok.clean \
+--test_prefix=${DATA_DIR}/dev.tok.clean \
+--out_dir=${MODEL_DIR} \
+--hparams_path=hparams_iwslt18/iwslt18_eu_en.json \
+--num_train_steps=100000 \
+--start_decay_step=50000 \
+--decay_steps=5000 \
+--beam_width=10
+
+
+# Inference
+python -m nmt.nmt 
+--src=eu \
+--tgt=en \
+--vocab_prefix=${DATA_DIR}/vocab.50k \
+--out_dir=/hdd/data/iwslt18/models/word.50k \
+--inference_input_file=/hdd/data/iwslt18/train.word.1000.eu \
+--inference_output_file=/hdd/data/iwslt18/train.out.1000.en

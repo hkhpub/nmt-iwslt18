@@ -1,0 +1,6 @@
+# 파일 나누는 법
+
+Use:
+    sed -n '1,100p' filename > output.txt
+
+Here, 1 and 100 are the line numbers which you will capture in output.txt.
