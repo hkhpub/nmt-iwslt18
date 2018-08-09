@@ -11930,3 +11930,1258 @@ totalMemory: 7.92GiB freeMemory: 7.83GiB
 2018-08-09 19:13:50.678309: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
 2018-08-09 19:13:50.678309: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
   loaded eval model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-68000, time 0.05s
+  eval dev: perplexity 35264.88, time 2s, Thu Aug  9 19:13:53 2018.
+  eval test: perplexity 35264.88, time 3s, Thu Aug  9 19:13:56 2018.
+2018-08-09 19:13:57.116610: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:13:57.116610: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:13:57.116610: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-68000, time 0.06s
+  # 38
+    src: Ez badak@@ ite , beste zerbait@@ ekin saiatzen dira . Z@@ uz@@ en ari naiz ? Ez di@@ ete beldur@@ rik huts@@ egit@@ eei .
+    ref: If they don &apos; t know , they &apos; ll have a go . A@@ m I right ? They &apos; re not fri@@ gh@@ ten@@ ed of being wrong .
+    nmt: I need not reason about what we are people about people about not the modern music , we don &apos; t have mackoptly enatheons .
+2018-08-09 19:13:57.251614: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:13:57.251630: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:13:57.251623: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-68000, time 0.07s
+# External evaluation, global step 68000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 6s, Thu Aug  9 19:14:03 2018.
+  bleu dev: 1.5
+  rouge dev: 19.1
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 68000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 7s, Thu Aug  9 19:14:12 2018.
+  bleu test: 1.5
+  rouge test: 19.1
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 68100 lr 0.0001 step-time 0.13s wps 12.03K ppl 2.12 gN 97.17 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:14:26 2018
+# Finished an epoch, step 68148. Perform external evaluation
+2018-08-09 19:14:32.733341: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:14:32.733341: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:14:32.733362: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-68000, time 0.05s
+  # 484
+    src: Jain@@ k@@ oti@@ arra bada , zure kasuan lanean ari den ge@@ inu zentz@@ ugab@@ eak gauza mir@@ agarri@@ r@@ en@@ bat beg@@ izt@@ atzen badu , nahiz eta une batean soilik izan zure ind@@ arr@@ etatik egit@@ n@@ e badu O@@ le !
+    ref: If the div@@ ine , co@@ ck@@ ey@@ ed gen@@ i@@ us as@@ sig@@ ned to your case dec@@ ide@@ s to let some sort of wond@@ er@@ ment be g@@ lim@@ p@@ sed , for just one moment through your effor@@ ts , then &quot; O@@ l@@ é ! &quot; And if not , do your d@@ ance any@@ how .
+    nmt: And as the cograpgent of a work , the kind of a servesting Moeris in the same whests , and I &apos; ll see the shotra of the shotal shemist &apos; s so some press ,
+2018-08-09 19:14:32.858414: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:14:32.858437: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:14:32.858437: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-68000, time 0.06s
+# External evaluation, global step 68000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 7s, Thu Aug  9 19:14:40 2018.
+  bleu dev: 1.5
+  rouge dev: 19.1
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 68000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 7s, Thu Aug  9 19:14:48 2018.
+  bleu test: 1.5
+  rouge test: 19.1
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 68200 lr 0.0001 step-time 0.12s wps 12.22K ppl 2.13 gN 91.36 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:14:56 2018
+  step 68300 lr 0.0001 step-time 0.14s wps 11.49K ppl 2.14 gN 100.69 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:15:10 2018
+# Finished an epoch, step 68326. Perform external evaluation
+2018-08-09 19:15:14.584207: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:15:14.584207: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:15:14.584254: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-68000, time 0.07s
+  # 1089
+    src: Un@@ e hartan nuen am@@ orr@@ uaren zati bat zera zen , pap@@ erak ald@@ erantz@@ iz balira , eta arab@@ e , mus@@ ul@@ man edo mus@@ ul@@ man itxur@@ ako batek hiru amerik@@ ar uniberts@@ itar@@ io hil bal@@ itu ex@@ ek@@ uz@@ io bat balitz bezala , euren etxean , nola de@@ ituko gen@@ ion ? Er@@ aso terror@@ ista . AEB@@ etan gizon zur@@ iek ek@@ intza bi@@ ol@@ ent@@ oak egitean , ot@@ so bak@@ arti@@ ak dira , arazo ment@@ al@@ dun@@ ak edo ap@@ ark@@ al@@ ek@@ uko li@@ sk@@ arren ondorio@@ zk@@ oak .
+    ref: Some of the r@@ age I felt at the time was that if rol@@ es were re@@ ver@@ sed , and an Ar@@ ab , Mus@@ li@@ m or Mus@@ lim@@ -@@ appe@@ ar@@ ing person had killed three white American college students ex@@ ec@@ uti@@ on@@ -@@ st@@ yle , in their home , what would we have called it ? A terror@@ ist att@@ ack . When white men comm@@ it acts of violence in the U@@ S , they &apos; re l@@ one w@@ ol@@ ves , ment@@ ally ill or dri@@ ven by a par@@ king di@@ sp@@ ute .
+    nmt: I had the iosits of first whesesesesesesesescar of the voices , and we &apos; ve seen in the face , I thought , was extererves , and I thought was the exod that I thought was to exach through the
+2018-08-09 19:15:14.823039: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:15:14.823039: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:15:14.823039: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-68000, time 0.06s
+# External evaluation, global step 68000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 7s, Thu Aug  9 19:15:22 2018.
+  bleu dev: 1.5
+  rouge dev: 19.1
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 68000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 5s, Thu Aug  9 19:15:29 2018.
+  bleu test: 1.5
+  rouge test: 19.1
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 68400 lr 0.0001 step-time 0.15s wps 10.25K ppl 2.16 gN 97.40 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:15:41 2018
+  step 68500 lr 0.0001 step-time 0.14s wps 10.77K ppl 2.13 gN 92.27 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:15:56 2018
+# Finished an epoch, step 68504. Perform external evaluation
+2018-08-09 19:15:56.732864: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:15:56.732864: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:15:56.732864: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-68000, time 0.06s
+  # 406
+    src: Eta orduan ir@@ itx@@ i zen Err@@ en@@ az@@ imen@@ dua eta dena aldatu zen , eta iz@@ ugarrizko ideia handia izan genuen ideia izugarri hori gizak@@ ia munduaren erdian jar@@ tzea izan zen j@@ ain@@ ko eta mist@@ er@@ io guztien gainean eta ez dago leku gehiago j@@ ain@@ k@@ ot@@ arr@@ etik dik@@ tak@@ eta hartzen duten izaki mist@@ iko@@ entzat Giz@@ aki arraz@@ ion@@ al@@ aren hast@@ apena , eta jendea sinesten hasi zen sor@@ mena gizak@@ itik zet@@ orr@@ ela .
+    ref: And then the R@@ en@@ ai@@ s@@ s@@ ance came and everything changed , and we had this big idea , and the big idea was , let &apos; s put the individual human being at the cent@@ er of the uni@@ verse ab@@ o@@ ve all go@@ ds and my@@ st@@ er@@ ies , and there &apos; s no more room for my@@ st@@ ical cre@@ atur@@ es who take dic@@ t@@ ation from the div@@ ine . And it &apos; s the beginning of rati@@ onal human@@ ism , and people started to believe that cre@@ ati@@ vity came completely from the self of the individual .
+    nmt: And when these broad and broad and the viion of Ragrioos and probably probably forve , probably it thought , the way why it used to repromote the silestooos , and why probably came to the forests and the wooove of the Moooh
+2018-08-09 19:15:56.945504: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:15:56.945504: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:15:56.945522: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-68000, time 0.06s
+# External evaluation, global step 68000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 5s, Thu Aug  9 19:16:02 2018.
+  bleu dev: 1.5
+  rouge dev: 19.1
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 68000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 7s, Thu Aug  9 19:16:11 2018.
+  bleu test: 1.5
+  rouge test: 19.1
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 68600 lr 0.0001 step-time 0.15s wps 10.55K ppl 2.07 gN 93.45 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:16:26 2018
+# Finished an epoch, step 68682. Perform external evaluation
+2018-08-09 19:16:37.095747: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:16:37.095747: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:16:37.095789: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-68000, time 0.07s
+  # 585
+    src: Eta hori , B@@ ee@@ th@@ o@@ ven@@ -en pos@@ ter bat disein@@ atu behar duz@@ unean oso erabil@@ garria da , lo@@ go@@ an azaltzen den informazio b@@ is@@ u@@ ala eta pos@@ ter@@ re@@ akoa , berdin@@ -@@ berdinak bait dira .
+    ref: Wh@@ ich , when you actually have to design a B@@ ee@@ th@@ o@@ ven pos@@ ter , comes in han@@ dy , because the visual information of the lo@@ go and the actual pos@@ ter is exactly the same .
+    nmt: And this therity has just listcing with a milthl , which is not moving that religions &apos; s not , moving of the end that it &apos; s not that religions see that it &apos; s not before .
+2018-08-09 19:16:37.275069: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:16:37.275142: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:16:37.275061: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-68000, time 0.07s
+# External evaluation, global step 68000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 7s, Thu Aug  9 19:16:44 2018.
+  bleu dev: 1.5
+  rouge dev: 19.1
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 68000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 7s, Thu Aug  9 19:16:53 2018.
+  bleu test: 1.5
+  rouge test: 19.1
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 68700 lr 0.0001 step-time 0.13s wps 12.02K ppl 2.15 gN 97.19 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:16:56 2018
+  step 68800 lr 0.0001 step-time 0.13s wps 11.71K ppl 2.10 gN 93.92 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:17:10 2018
+# Finished an epoch, step 68860. Perform external evaluation
+2018-08-09 19:17:19.697925: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:17:19.697925: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:17:19.697929: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-68000, time 0.06s
+  # 344
+    src: Hemen duzue alfabet@@ o mart@@ et@@ arra .
+    ref: Here , you &apos; ve got Mar@@ ti@@ an al@@ pha@@ bet .
+    nmt: This is how can turn for the life .
+2018-08-09 19:17:19.808778: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:17:19.808778: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:17:19.808778: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-68000, time 0.07s
+# External evaluation, global step 68000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 6s, Thu Aug  9 19:17:26 2018.
+  bleu dev: 1.5
+  rouge dev: 19.1
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 68000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 5s, Thu Aug  9 19:17:33 2018.
+  bleu test: 1.5
+  rouge test: 19.1
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 68900 lr 0.0001 step-time 0.15s wps 10.49K ppl 2.13 gN 97.85 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:17:40 2018
+  step 69000 lr 0.0001 step-time 0.15s wps 10.33K ppl 2.07 gN 97.80 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:17:55 2018
+# Save eval, global step 69000
+2018-08-09 19:17:56.079283: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:17:56.079309: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:17:56.079349: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-69000, time 0.08s
+  # 259
+    src: Hor@@ rez gero , bes@@ oa anp@@ ut@@ atzen ba@@ diz@@ ute , ikas@@ itako paral@@ is@@ i hori dator ere zure gorputz@@ -@@ ir@@ u@@ dira , eta zure fant@@ asm@@ ara .
+    ref: And then , when you &apos; ve amp@@ ut@@ ated the arm , this learned paral@@ ys@@ is c@@ arri@@ es over into your body image and into your p@@ han@@ tom , OK ?
+    nmt: Three , the next that you thought was , you &apos; re probably learned the scale called you just adck , and that was probably , the scale was safe .
+2018-08-09 19:17:56.234243: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:17:56.234252: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+  loaded eval model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-69000, time 0.07s
+  eval dev: perplexity 40640.80, time 3s, Thu Aug  9 19:17:59 2018.
+  eval test: perplexity 40640.80, time 3s, Thu Aug  9 19:18:02 2018.
+# Finished an epoch, step 69038. Perform external evaluation
+2018-08-09 19:18:07.485788: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:18:07.485795: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:18:07.485795: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-69000, time 0.06s
+  # 689
+    src: B@@ igarren mota h@@ ari m@@ el@@ o@@ di@@ koak dira ; hauek pi@@ an@@ oa bezala af@@ in@@ atutako zur@@ ezko tek@@ l@@ atu batekin jotzen dira .
+    ref: The second str@@ ing is a m@@ el@@ o@@ dy str@@ ing , which is play@@ ed with a w@@ o@@ o@@ den k@@ ey@@ board tun@@ ed like a pi@@ ano .
+    nmt: We have keep people that hotale with the sply extropitating in the society , something that &apos; s an generosum force .
+2018-08-09 19:18:07.624689: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:18:07.624689: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:18:07.624694: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-69000, time 0.07s
+# External evaluation, global step 69000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 6s, Thu Aug  9 19:18:14 2018.
+  bleu dev: 1.3
+  rouge dev: 18.7
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 69000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 7s, Thu Aug  9 19:18:22 2018.
+  bleu test: 1.3
+  rouge test: 18.7
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 69100 lr 0.0001 step-time 0.13s wps 11.75K ppl 2.12 gN 100.55 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:18:32 2018
+  step 69200 lr 0.0001 step-time 0.13s wps 11.71K ppl 2.09 gN 94.70 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:18:46 2018
+# Finished an epoch, step 69216. Perform external evaluation
+2018-08-09 19:18:48.618071: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:18:48.618071: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:18:48.618141: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-69000, time 0.08s
+  # 570
+    src: Eta agian garrantzitsu@@ ago dena , lehenengo urte s@@ ab@@ at@@ ikoaren ondor@@ engo zazpi urteetan egin genuen guztia oinarrian , urte horren inguruko gogo@@ etatik irten zen .
+    ref: And probably most import@@ antly , basically everything we &apos; ve done in the seven years follow@@ ing the first s@@ ab@@ bat@@ ical came out of thinking of that one single year .
+    nmt: And it &apos; s actually , it would see more as a tridthious , it &apos; s straightforward as as some way that they cllodsee .
+2018-08-09 19:18:48.764767: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:18:48.764778: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:18:48.764794: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-69000, time 0.06s
+# External evaluation, global step 69000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 7s, Thu Aug  9 19:18:56 2018.
+  bleu dev: 1.3
+  rouge dev: 18.7
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 69000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 6s, Thu Aug  9 19:19:03 2018.
+  bleu test: 1.3
+  rouge test: 18.7
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 69300 lr 0.0001 step-time 0.15s wps 10.63K ppl 2.11 gN 97.50 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:19:16 2018
+# Finished an epoch, step 69394. Perform external evaluation
+2018-08-09 19:19:30.890673: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:19:30.890690: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:19:30.890688: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-69000, time 0.06s
+  # 277
+    src: Ir@@ ri egin zuen : “ Nire fant@@ as@@ ma ikus dezaket ” . Ez da mem@@ el@@ oa : badak@@ i ez dela erre@@ ala .
+    ref: He knows it &apos; s not real .
+    nmt: When you came up , when you call you , &quot; I call you ? I need the group ? That &apos; s not enough : because she could do the group of women .
+2018-08-09 19:19:31.033406: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:19:31.033408: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:19:31.033406: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-69000, time 0.07s
+# External evaluation, global step 69000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 6s, Thu Aug  9 19:19:37 2018.
+  bleu dev: 1.3
+  rouge dev: 18.7
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 69000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 6s, Thu Aug  9 19:19:44 2018.
+  bleu test: 1.3
+  rouge test: 18.7
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 69400 lr 0.0001 step-time 0.15s wps 10.15K ppl 2.09 gN 95.15 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:19:47 2018
+  step 69500 lr 0.0001 step-time 0.15s wps 10.70K ppl 2.08 gN 92.93 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:20:02 2018
+# Finished an epoch, step 69572. Perform external evaluation
+2018-08-09 19:20:10.809998: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:20:10.809998: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:20:10.810008: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-69000, time 0.05s
+  # 875
+    src: Nesk@@ a zoragarri bat ezagutu nuen , bizitza os@@ orako lagun@@ ik min@@ ena bihurtu zena eta orain arte egin dudan gauza guztien part@@ a@@ ide , nire em@@ aztea , L@@ é@@ l@@ ia W@@ an@@ ick S@@ al@@ ga@@ do .
+    ref: I met an incredible girl who became my li@@ fel@@ ong best friend , and my associ@@ ate in everything that I have done t@@ ill now , my wife , L@@ é@@ l@@ ia W@@ an@@ ick S@@ al@@ ga@@ do .
+    nmt: I was some unastated to me that during some people I wanted to see about people during some people during me , by funnal , ever wanted during me something something I &apos; ve going to have unfied people by family .
+2018-08-09 19:20:10.923849: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:20:10.923869: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:20:10.923865: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-69000, time 0.05s
+# External evaluation, global step 69000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 7s, Thu Aug  9 19:20:17 2018.
+  bleu dev: 1.3
+  rouge dev: 18.7
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 69000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 7s, Thu Aug  9 19:20:26 2018.
+  bleu test: 1.3
+  rouge test: 18.7
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 69600 lr 0.0001 step-time 0.13s wps 12.04K ppl 2.09 gN 94.68 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:20:31 2018
+  step 69700 lr 0.0001 step-time 0.13s wps 12.73K ppl 2.07 gN 98.62 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:20:44 2018
+# Finished an epoch, step 69750. Perform external evaluation
+2018-08-09 19:20:51.593690: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:20:51.593695: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:20:51.593695: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-69000, time 0.07s
+  # 545
+    src: Bere jat@@ etxeak urtero zazpi hilabete ematen ditu irek@@ ita .
+    ref: His rest@@ aur@@ ant is open seven months every year .
+    nmt: After prily , there was a day .
+2018-08-09 19:20:51.698189: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:20:51.698189: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:20:51.698189: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-69000, time 0.07s
+# External evaluation, global step 69000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 7s, Thu Aug  9 19:20:59 2018.
+  bleu dev: 1.3
+  rouge dev: 18.7
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 69000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 6s, Thu Aug  9 19:21:07 2018.
+  bleu test: 1.3
+  rouge test: 18.7
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 69800 lr 0.0001 step-time 0.13s wps 11.41K ppl 2.04 gN 92.87 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:21:14 2018
+  step 69900 lr 0.0001 step-time 0.15s wps 10.41K ppl 2.07 gN 95.75 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:21:29 2018
+# Finished an epoch, step 69928. Perform external evaluation
+2018-08-09 19:21:34.032623: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:21:34.032623: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:21:34.032681: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-69000, time 0.07s
+  # 600
+    src: Baina sentitzen nuen hizkuntza hau ikasten hainbeste denbora igaro ondoren zergatik erabili prom@@ ozi@@ orako bakarrik ?
+    ref: But I did feel that I spent so much time learning this language , why do I only prom@@ ote with it ?
+    nmt: But if I have that that &apos; s where they have the other of that they have to stop so ?
+2018-08-09 19:21:34.154346: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:21:34.154376: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:21:34.154384: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-69000, time 0.07s
+# External evaluation, global step 69000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 6s, Thu Aug  9 19:21:40 2018.
+  bleu dev: 1.3
+  rouge dev: 18.7
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 69000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 6s, Thu Aug  9 19:21:47 2018.
+  bleu test: 1.3
+  rouge test: 18.7
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 70000 lr 0.0001 step-time 0.15s wps 10.02K ppl 2.09 gN 96.27 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:22:00 2018
+# Save eval, global step 70000
+2018-08-09 19:22:00.579882: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:22:00.579897: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:22:00.579893: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-70000, time 0.08s
+  # 6
+    src: Ide@@ iarik ez guzti hau nola garatu daitekeen .
+    ref: No idea how this may play out .
+    nmt: So , how finally we do is this .
+2018-08-09 19:22:00.674547: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:22:00.674551: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded eval model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-70000, time 0.06s
+  eval dev: perplexity 43354.86, time 3s, Thu Aug  9 19:22:04 2018.
+  eval test: perplexity 43354.85, time 3s, Thu Aug  9 19:22:07 2018.
+  step 70100 lr 0.0001 step-time 0.13s wps 12.07K ppl 2.10 gN 95.00 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:22:20 2018
+# Finished an epoch, step 70106. Perform external evaluation
+2018-08-09 19:22:21.813994: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:22:21.814015: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:22:21.813994: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-70000, time 0.06s
+  # 592
+    src: Eta erabil@@ garri su@@ ert@@ atu den gauz@@ at@@ ako bat izan zen lo@@ got@@ ip@@ oa har zen@@ ezak@@ eela eta bert@@ atik iragark@@ iak sortu .
+    ref: And one of the han@@ dy things that came about was that you could take the lo@@ go type and create ad@@ ver@@ ti@@ sing out of it .
+    nmt: And as the imimg that I &apos; d just believed to believe in the edited and so the cainths so the events and so inside .
+2018-08-09 19:22:21.968657: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:22:21.968665: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:22:21.968672: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-70000, time 0.07s
+# External evaluation, global step 70000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 7s, Thu Aug  9 19:22:29 2018.
+  bleu dev: 1.3
+  rouge dev: 18.9
+  accuracy dev: 0.4
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 70000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 6s, Thu Aug  9 19:22:37 2018.
+  bleu test: 1.3
+  rouge test: 18.9
+  accuracy test: 0.4
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 70200 lr 0.0001 step-time 0.14s wps 11.22K ppl 2.01 gN 93.23 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:22:51 2018
+# Finished an epoch, step 70284. Perform external evaluation
+2018-08-09 19:23:04.045307: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:23:04.045307: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:23:04.045313: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-70000, time 0.08s
+  # 387
+    src: Beraz , galdera itzultzen da , nola ?
+    ref: I would pre@@ f@@ er to keep doing this work that I love . And so , the question becomes , how ?
+    nmt: So , how do we do ?
+2018-08-09 19:23:04.146647: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:23:04.146647: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:23:04.146647: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-70000, time 0.07s
+# External evaluation, global step 70000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 6s, Thu Aug  9 19:23:10 2018.
+  bleu dev: 1.3
+  rouge dev: 18.9
+  accuracy dev: 0.4
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 70000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 6s, Thu Aug  9 19:23:17 2018.
+  bleu test: 1.3
+  rouge test: 18.9
+  accuracy test: 0.4
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 70300 lr 0.0001 step-time 0.16s wps 9.95K ppl 2.07 gN 97.29 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:23:21 2018
+  step 70400 lr 0.0001 step-time 0.16s wps 10.37K ppl 2.09 gN 98.72 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:23:36 2018
+# Finished an epoch, step 70462. Perform external evaluation
+2018-08-09 19:23:44.319084: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:23:44.319084: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:23:44.319084: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-70000, time 0.07s
+  # 506
+    src: Eta segur@@ u@@ enik ho@@ b@@ b@@ y-@@ ren bat beharko dut or@@ ek@@ a-@@ m@@ ek@@ an@@ ismo bezala .
+    ref: And I probably will need a ho@@ b@@ by as a lev@@ el@@ ing m@@ ec@@ han@@ ism .
+    nmt: And they can take a picture of view , commal by support by the coumal view .
+2018-08-09 19:23:44.436599: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:23:44.436599: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:23:44.436599: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-70000, time 0.06s
+# External evaluation, global step 70000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 5s, Thu Aug  9 19:23:50 2018.
+  bleu dev: 1.3
+  rouge dev: 18.9
+  accuracy dev: 0.4
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 70000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 5s, Thu Aug  9 19:23:57 2018.
+  bleu test: 1.3
+  rouge test: 18.9
+  accuracy test: 0.4
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 70500 lr 0.0001 step-time 0.12s wps 12.29K ppl 1.99 gN 91.13 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:24:02 2018
+  step 70600 lr 0.0001 step-time 0.15s wps 10.27K ppl 2.03 gN 92.28 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:24:18 2018
+# Finished an epoch, step 70640. Perform external evaluation
+2018-08-09 19:24:24.213122: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:24:24.213143: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:24:24.213122: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-70000, time 0.06s
+  # 23
+    src: Beraz hezkuntz@@ ari eta sormen@@ ari buruz hitz egin nahiko nuke Neure ustez , gaur egun sor@@ mena hezkuntz@@ an alfabet@@ atzea bezain garrantzitsua da eta ir@@ ri@@ ka ber@@ beraz zain@@ du beharko genuke . Eskerrik asko .
+    ref: So I want to talk about education and I want to talk about cre@@ ati@@ vity . My cont@@ en@@ tion is that cre@@ ati@@ vity now is as important in education as liter@@ acy , and we should tre@@ at it with the same status .
+    nmt: So I &apos; m going to talk about the point here I &apos; m going to link like in a few sense like what I &apos; ve done in me I &apos; m going to link for it . Thank you , I &apos; m not
+2018-08-09 19:24:24.374194: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:24:24.374194: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:24:24.374194: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-70000, time 0.06s
+# External evaluation, global step 70000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 5s, Thu Aug  9 19:24:30 2018.
+  bleu dev: 1.3
+  rouge dev: 18.9
+  accuracy dev: 0.4
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 70000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 6s, Thu Aug  9 19:24:37 2018.
+  bleu test: 1.3
+  rouge test: 18.9
+  accuracy test: 0.4
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 70700 lr 0.0001 step-time 0.15s wps 10.07K ppl 2.02 gN 95.80 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:24:48 2018
+  step 70800 lr 0.0001 step-time 0.13s wps 11.87K ppl 2.03 gN 91.83 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:25:01 2018
+# Finished an epoch, step 70818. Perform external evaluation
+2018-08-09 19:25:03.877548: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:25:03.877548: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:25:03.877617: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-70000, time 0.06s
+  # 17
+    src: Guz@@ ti honen hirugarren part@@ ea da guk guztiok , dena dela , um@@ eek dituzten ap@@ arteko ahal@@ menak gor@@ aip@@ atzean elkar hartu dugula — berrik@@ untzarako duten ahalmen hori .
+    ref: And the third part of this is that we &apos; ve all agre@@ ed , non@@ eth@@ eless , on the really extraordinary cap@@ ac@@ ities that children have — their cap@@ ac@@ ities for innov@@ ation .
+    nmt: It &apos; s all all of all of the basic music , that , there are many , of those of these things , Wikiare because of those , even because of those of America are all of six .
+2018-08-09 19:25:03.980421: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:25:03.980421: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:25:03.980431: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-70000, time 0.05s
+# External evaluation, global step 70000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 6s, Thu Aug  9 19:25:10 2018.
+  bleu dev: 1.3
+  rouge dev: 18.9
+  accuracy dev: 0.4
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 70000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 7s, Thu Aug  9 19:25:19 2018.
+  bleu test: 1.3
+  rouge test: 18.9
+  accuracy test: 0.4
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 70900 lr 0.0001 step-time 0.13s wps 11.99K ppl 2.03 gN 95.61 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:25:31 2018
+# Finished an epoch, step 70996. Perform external evaluation
+2018-08-09 19:25:45.546912: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:25:45.546912: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:25:45.546925: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-70000, time 0.07s
+  # 208
+    src: Orduan haut@@ ematen duzu m@@ ad@@ ari@@ ond@@ oa , maha@@ ia edo zure ama , dena del@@ akoa .
+    ref: So I can deter@@ mine , when you &apos; re looking at something , whether you &apos; re excited or whether you &apos; re ar@@ ou@@ sed , or not , OK ?
+    nmt: And you see an people like a sume , like you , like your people like like me .
+2018-08-09 19:25:45.671154: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:25:45.671154: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:25:45.671154: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-70000, time 0.07s
+# External evaluation, global step 70000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 7s, Thu Aug  9 19:25:53 2018.
+  bleu dev: 1.3
+  rouge dev: 18.9
+  accuracy dev: 0.4
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 70000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 5s, Thu Aug  9 19:25:59 2018.
+  bleu test: 1.3
+  rouge test: 18.9
+  accuracy test: 0.4
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 71000 lr 0.0001 step-time 0.15s wps 10.41K ppl 2.04 gN 96.41 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:26:01 2018
+# Save eval, global step 71000
+2018-08-09 19:26:02.041918: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:26:02.041918: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:26:02.041962: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-71000, time 0.06s
+  # 76
+    src: Ex@@ tr@@ al@@ urt@@ ar batek gure hezkuntza azter@@ tuko bal@@ u , eta galdetu &quot; Z@@ ert@@ arako balio du hezkuntza publik@@ oak ? &quot; Kon@@ k@@ l@@ us@@ ioa — emaitzak azter@@ tuz gero , nork lortzen duen arrakasta ikusita , nork egiten duen egin beharreko guztia , nork lortzen dituen gar@@ aik@@ urrak , nor@@ tz@@ uk diren irab@@ az@@ leak — Uste dut aterako z@@ uk@@ een ondorioa , mundu osoko hezkuntza publik@@ oari buruz , honen hel@@ buru bakarra unibertsitate irakas@@ leak sortzea dela . Ez@@ ta h@@ ola ? Go@@ ian dabil@@ tz@@ an pertsonak dira .
+    ref: If you were to vis@@ it education , as an al@@ ien , and say &quot; What &apos; s it for , public education ? &quot; I think you &apos; d have to concl@@ ude , if you look at the out@@ put , who really succ@@ ee@@ ds by this , who does everything that they should , who gets all the b@@ row@@ ni@@ e points , who are the win@@ ners — I think you &apos; d have to concl@@ ude the whole pur@@ p@@ ose of public education throughout the world is to produ@@ ce university profes@@ sor@@ s . Is@@ n &apos; t it ? They &apos; re the people who come out the top . And I used to be one , so there .
+    nmt: You can &apos; t be invited to build a queme for most most quemet and then Uavhand for our halls , Uo and no definating it &apos; s clearly — I met to be a defining qucless and if I &apos; d been any threat if I &apos; ve been loused to
+2018-08-09 19:26:02.264004: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:26:02.264004: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+  loaded eval model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-71000, time 0.06s
+  eval dev: perplexity 44068.83, time 3s, Thu Aug  9 19:26:05 2018.
+  eval test: perplexity 44068.82, time 3s, Thu Aug  9 19:26:09 2018.
+  step 71100 lr 0.0001 step-time 0.15s wps 10.40K ppl 2.02 gN 93.11 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:26:24 2018
+# Finished an epoch, step 71174. Perform external evaluation
+2018-08-09 19:26:33.797754: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:26:33.797754: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:26:33.797816: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-71000, time 0.06s
+  # 1095
+    src: Guk egin ezin gen@@ uena egin zuen gur@@ etzat , oso une gogor hartan .
+    ref: He did for us what we could not do for ourselves in a moment of dev@@ ast@@ ation .
+    nmt: And so we can do that we can get a good minase , so he &apos; s so so good .
+2018-08-09 19:26:33.915703: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:26:33.915705: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:26:33.915703: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-71000, time 0.07s
+# External evaluation, global step 71000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 6s, Thu Aug  9 19:26:40 2018.
+  bleu dev: 1.3
+  rouge dev: 19.0
+  accuracy dev: 0.4
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 71000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 7s, Thu Aug  9 19:26:48 2018.
+  bleu test: 1.3
+  rouge test: 19.0
+  accuracy test: 0.4
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 71200 lr 0.0001 step-time 0.13s wps 11.81K ppl 2.01 gN 93.89 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:26:54 2018
+  step 71300 lr 0.0001 step-time 0.13s wps 12.66K ppl 2.07 gN 98.49 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:27:06 2018
+# Finished an epoch, step 71352. Perform external evaluation
+2018-08-09 19:27:13.800412: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:27:13.800424: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:27:13.800412: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-71000, time 0.07s
+  # 527
+    src: Beraz altz@@ ariak begiratzen hasi eta konturatu nintzen gustatzen zitza@@ izk@@ idan altz@@ ariak ezin nit@@ uela ordain@@ du eta or@@ da@@ in n@@ itz@@ azk@@ e@@ enak , ez nit@@ uela gustoko .
+    ref: So I looked for fur@@ nit@@ ure . And it turned out that all the fur@@ nit@@ ure that I really lik@@ ed , I couldn &apos; t af@@ ford . And all the stuff I could af@@ ford , I didn &apos; t like .
+    nmt: So if you can imagine , and just put it in the same way I &apos; ve play in the foungrim way , and I could sarrked with the contrenance I genve with cooking .
+2018-08-09 19:27:13.993532: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:27:13.993564: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:27:13.993595: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-71000, time 0.06s
+# External evaluation, global step 71000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 7s, Thu Aug  9 19:27:21 2018.
+  bleu dev: 1.3
+  rouge dev: 19.0
+  accuracy dev: 0.4
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 71000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 7s, Thu Aug  9 19:27:29 2018.
+  bleu test: 1.3
+  rouge test: 19.0
+  accuracy test: 0.4
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 71400 lr 0.0001 step-time 0.13s wps 11.64K ppl 1.95 gN 89.73 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:27:36 2018
+  step 71500 lr 0.0001 step-time 0.15s wps 10.81K ppl 2.02 gN 96.86 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:27:51 2018
+# Finished an epoch, step 71530. Perform external evaluation
+2018-08-09 19:27:56.108846: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:27:56.108917: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:27:56.108846: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-71000, time 0.08s
+  # 159
+    src: Ch@@ ris@@ ek esan du@@ enez , nik gizak@@ iaren burmu@@ ina ikertzen dut , bere funtzion@@ amendu eta antol@@ aketa .
+    ref: Well , as Chris poin@@ ted out , I study the human brain , the func@@ tions and structure of the human brain .
+    nmt: In the last hand , the threbret hand , we listened to this work and he gave me , &quot;
+2018-08-09 19:27:56.237694: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:27:56.237694: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:27:56.237698: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-71000, time 0.07s
+# External evaluation, global step 71000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 6s, Thu Aug  9 19:28:02 2018.
+  bleu dev: 1.3
+  rouge dev: 19.0
+  accuracy dev: 0.4
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 71000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 5s, Thu Aug  9 19:28:09 2018.
+  bleu test: 1.3
+  rouge test: 19.0
+  accuracy test: 0.4
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 71600 lr 0.0001 step-time 0.16s wps 9.95K ppl 2.03 gN 97.57 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:28:21 2018
+  step 71700 lr 0.0001 step-time 0.14s wps 11.28K ppl 2.00 gN 94.92 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:28:35 2018
+# Finished an epoch, step 71708. Perform external evaluation
+2018-08-09 19:28:36.666188: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:28:36.666188: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:28:36.666226: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-71000, time 0.06s
+  # 328
+    src: Gero , konex@@ io horiek kim@@ atu egiten dira burmu@@ in hel@@ duaren ber@@ ezko arkit@@ ekt@@ ura mo@@ dul@@ arra sortzeko .
+    ref: R@@ em@@ ember I said it run@@ s in families ?
+    nmt: And then they made their lives , their Neanderthals green didn &apos; t mess for them .
+2018-08-09 19:28:36.776397: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:28:36.776397: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:28:36.776397: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-71000, time 0.06s
+# External evaluation, global step 71000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 6s, Thu Aug  9 19:28:42 2018.
+  bleu dev: 1.3
+  rouge dev: 19.0
+  accuracy dev: 0.4
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 71000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 7s, Thu Aug  9 19:28:51 2018.
+  bleu test: 1.3
+  rouge test: 19.0
+  accuracy test: 0.4
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 71800 lr 0.0001 step-time 0.14s wps 11.02K ppl 1.97 gN 91.24 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:29:05 2018
+# Finished an epoch, step 71886. Perform external evaluation
+2018-08-09 19:29:16.953003: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:29:16.953005: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:29:16.953048: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-71000, time 0.06s
+  # 43
+    src: Eta gure enpres@@ ak era honela zuz@@ en@@ tzen ditugu , baita ere . Err@@ oreak estig@@ am@@ t@@ iz@@ atzen ditugu . Eta huts@@ egit@@ eak egin daitezk@@ een gauzarik txarr@@ entzat jotzen dituzten hezkuntza sistemak ditugu martxan gaur egun .
+    ref: And we run our companies like this . We st@@ ig@@ mat@@ ize mist@@ akes . And we &apos; re now running national education systems where mist@@ akes are the worst thing you can make .
+    nmt: And if you did our lives , if if we came into the world in the life if you be right now , if you be right like the life , if if we look right like if you talk into the world .
+2018-08-09 19:29:17.143579: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:29:17.143579: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:29:17.143579: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-71000, time 0.08s
+# External evaluation, global step 71000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 7s, Thu Aug  9 19:29:24 2018.
+  bleu dev: 1.3
+  rouge dev: 19.0
+  accuracy dev: 0.4
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 71000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 6s, Thu Aug  9 19:29:32 2018.
+  bleu test: 1.3
+  rouge test: 19.0
+  accuracy test: 0.4
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 71900 lr 0.0001 step-time 0.13s wps 11.70K ppl 2.02 gN 94.62 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:29:35 2018
+  step 72000 lr 0.0001 step-time 0.14s wps 11.39K ppl 1.96 gN 92.08 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:29:49 2018
+# Save eval, global step 72000
+2018-08-09 19:29:49.846885: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:29:49.846941: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:29:49.846915: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-72000, time 0.08s
+  # 564
+    src: 9@@ t@@ atik 10@@ tara : etorkizun@@ ari buruz pents@@ atzea Hori ez zen oso arrakast@@ atsua izan .
+    ref: Mon@@ day , 8 to 9 : story writing ; 9 to 10 : future thinking . W@@ as not very successful .
+    nmt: I &apos; m ethlyyi for already , not it &apos; s very very few person ; it has not now .
+2018-08-09 19:29:49.975661: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:29:49.975661: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded eval model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-72000, time 0.06s
+  eval dev: perplexity 48795.62, time 3s, Thu Aug  9 19:29:53 2018.
+  eval test: perplexity 48795.62, time 3s, Thu Aug  9 19:29:57 2018.
+# Finished an epoch, step 72064. Perform external evaluation
+2018-08-09 19:30:06.269649: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:30:06.269705: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:30:06.269891: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-72000, time 0.07s
+  # 485
+    src: Eta best@@ ela , egin ez@@ azu zure d@@ antza hal@@ ere . Eta O@@ le ! Z@@ ur@@ etzako modu guztietan . Hon@@ etan sinesten dut eta erakutsi behar dugula sent@@ it@@ iz@@ en dut . O@@ le ! Z@@ ur@@ i , modu guztietan , mait@@ asuna eduk@@ itz@@ eagatik soilik eta saiatzen jarra@@ itzeko gizaki ir@@ mot@@ asuna .
+    ref: And &quot; O@@ l@@ é ! &quot; to you , non@@ eth@@ eless . I believe this and I feel that we must teach it . &quot; O@@ l@@ é ! &quot; to you , non@@ eth@@ eless , just for having the sh@@ eer human love and stu@@ b@@ bor@@ n@@ ness to keep showing up .
+    nmt: And you can do this , and we realize it is a very big place . &quot; But he said , &quot; Then that he was a very lot to the limk place , because he was never used , because he was a lot of replital
+2018-08-09 19:30:06.456575: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:30:06.456607: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:30:06.456595: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-72000, time 0.07s
+# External evaluation, global step 72000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 5s, Thu Aug  9 19:30:12 2018.
+  bleu dev: 1.3
+  rouge dev: 18.9
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 72000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 6s, Thu Aug  9 19:30:19 2018.
+  bleu test: 1.3
+  rouge test: 18.9
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 72100 lr 0.0001 step-time 0.14s wps 10.70K ppl 1.97 gN 93.31 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:30:26 2018
+  step 72200 lr 0.0001 step-time 0.14s wps 11.09K ppl 1.99 gN 95.70 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:30:40 2018
+# Finished an epoch, step 72242. Perform external evaluation
+2018-08-09 19:30:45.952013: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:30:45.952195: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:30:45.952395: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-72000, time 0.06s
+  # 746
+    src: Berak zioen &quot; haiek ba@@ dauzk@@ at@@ elako leg@@ eak eta esku@@ bideak arraz@@ o@@ ian oinarr@@ ituta . &quot; Hau ez da ge@@ og@@ rafia .
+    ref: He said it was &quot; because they have la@@ ws and rules inv@@ ented by reason . &quot; It &apos; s not ge@@ ograp@@ hy .
+    nmt: They said , &quot; We have their kids with guself , and you wanted to recognize what she have . &quot;
+2018-08-09 19:30:46.077706: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:30:46.077707: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:30:46.077720: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-72000, time 0.07s
+# External evaluation, global step 72000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 6s, Thu Aug  9 19:30:52 2018.
+  bleu dev: 1.3
+  rouge dev: 18.9
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 72000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 7s, Thu Aug  9 19:31:01 2018.
+  bleu test: 1.3
+  rouge test: 18.9
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 72300 lr 0.0001 step-time 0.13s wps 11.79K ppl 1.98 gN 96.23 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:31:10 2018
+  step 72400 lr 0.0001 step-time 0.13s wps 11.83K ppl 2.00 gN 90.95 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:31:23 2018
+# Finished an epoch, step 72420. Perform external evaluation
+2018-08-09 19:31:26.860532: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:31:26.860532: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:31:26.860557: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-72000, time 0.07s
+  # 92
+    src: Mundu osoa dago iraul@@ tza bat@@ etan m@@ urg@@ il@@ duta .
+    ref: The whole world is eng@@ ul@@ f@@ ed in a revolution .
+    nmt: It &apos; s out of the ages that our family in Kom .
+2018-08-09 19:31:26.968252: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:31:26.968252: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:31:26.968258: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-72000, time 0.07s
+# External evaluation, global step 72000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 7s, Thu Aug  9 19:31:34 2018.
+  bleu dev: 1.3
+  rouge dev: 18.9
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 72000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 6s, Thu Aug  9 19:31:41 2018.
+  bleu test: 1.3
+  rouge test: 18.9
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 72500 lr 0.0001 step-time 0.14s wps 10.61K ppl 1.92 gN 91.30 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:31:54 2018
+# Finished an epoch, step 72598. Perform external evaluation
+2018-08-09 19:32:09.003160: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:32:09.003314: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:32:09.003160: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-72000, time 0.06s
+  # 486
+    src: Eskerrik asko Eskerrik asko
+    ref: Thank you . Thank you .
+    nmt: Thank you . Thank you .
+2018-08-09 19:32:09.087188: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:32:09.087188: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:32:09.087189: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-72000, time 0.07s
+# External evaluation, global step 72000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 5s, Thu Aug  9 19:32:14 2018.
+  bleu dev: 1.3
+  rouge dev: 18.9
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 72000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 6s, Thu Aug  9 19:32:22 2018.
+  bleu test: 1.3
+  rouge test: 18.9
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 72600 lr 0.0001 step-time 0.15s wps 10.06K ppl 1.99 gN 92.79 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:32:24 2018
+  step 72700 lr 0.0001 step-time 0.15s wps 10.65K ppl 1.95 gN 91.97 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:32:39 2018
+# Finished an epoch, step 72776. Perform external evaluation
+2018-08-09 19:32:48.547257: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:32:48.547262: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:32:48.547262: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-72000, time 0.05s
+  # 410
+    src: Nor@@ bait@@ i eguzk@@ ia ir@@ en@@ st@@ ea esk@@ atzea bezala da .
+    ref: It &apos; s like asking somebody to s@@ wal@@ low the sun .
+    nmt: This man looks on an exsive man for the man , like the foresmic .
+2018-08-09 19:32:48.623981: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:32:48.623982: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:32:48.623982: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-72000, time 0.05s
+# External evaluation, global step 72000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 7s, Thu Aug  9 19:32:55 2018.
+  bleu dev: 1.3
+  rouge dev: 18.9
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 72000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 7s, Thu Aug  9 19:33:04 2018.
+  bleu test: 1.3
+  rouge test: 18.9
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 72800 lr 0.0001 step-time 0.13s wps 12.08K ppl 1.97 gN 93.18 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:33:08 2018
+  step 72900 lr 0.0001 step-time 0.13s wps 12.47K ppl 1.95 gN 93.79 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:33:21 2018
+# Finished an epoch, step 72954. Perform external evaluation
+2018-08-09 19:33:28.979177: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:33:28.979177: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:33:28.979177: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-72000, time 0.06s
+  # 1123
+    src: Zer@@ k egin zuen nire biz@@ il@@ agun Ne@@ al@@ -en laguntza hain garrantzitsua ? Gauza pare batek . Hor zegoen ardur@@ atzen zen biz@@ il@@ agun gisa , baina bere esperientzia eta gaitasun profes@@ ion@@ ala ere esk@@ e@@ in@@ i zuen , hura behar zenean .
+    ref: So what made my neigh@@ b@@ or Ne@@ al &apos; s all@@ y@@ ship so pro@@ found ? A couple of things . He was there as a neigh@@ b@@ or who car@@ ed , but he was also br@@ ing@@ ing in his professional exper@@ ti@@ se and resources when the moment called for it .
+    nmt: He was no forner in my blood forumes . It was no pretty niton . It was it for me . &quot; Well , I was it in my space .
+2018-08-09 19:33:29.152636: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:33:29.152663: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:33:29.152636: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-72000, time 0.06s
+# External evaluation, global step 72000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 7s, Thu Aug  9 19:33:36 2018.
+  bleu dev: 1.3
+  rouge dev: 18.9
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 72000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 6s, Thu Aug  9 19:33:44 2018.
+  bleu test: 1.3
+  rouge test: 18.9
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 73000 lr 0.0001 step-time 0.13s wps 11.55K ppl 1.96 gN 93.12 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:33:51 2018
+# Save eval, global step 73000
+2018-08-09 19:33:51.716912: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:33:51.716930: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:33:51.716965: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-73000, time 0.05s
+  # 633
+    src: Bide@@ oa : Zor@@ ion@@ tsu nago bizirik n@@ ago@@ elako Zor@@ ion@@ tsu nago bizirik n@@ ago@@ elako . Zor@@ ion@@ tsu nago bizirik n@@ ago@@ elako
+    ref: V@@ ide@@ o : And I &apos; m happy I &apos; m al@@ ive . I &apos; m happy I &apos; m al@@ ive . I &apos; m happy I &apos; m al@@ ive .
+    nmt: And I remember him . I &apos; m learning in my community I had so known and I &apos; m so known so , I think I &apos; m so even so I &apos; m so about .
+2018-08-09 19:33:51.831181: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:33:51.831183: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded eval model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-73000, time 0.06s
+  eval dev: perplexity 57443.23, time 3s, Thu Aug  9 19:33:55 2018.
+  eval test: perplexity 57443.21, time 3s, Thu Aug  9 19:33:59 2018.
+2018-08-09 19:33:59.988391: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:33:59.988391: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:33:59.988446: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-73000, time 0.08s
+  # 359
+    src: Id@@ az@@ le bat naiz Li@@ buru@@ ak id@@ aztea nire lan@@ bidea da baina hori baino gehiago ere bai , noski Nire bizitzako maitasun handia eta gauza lilur@@ agarria ere bada Eta ez dut hori inoiz aldatuko denik espero Baina , hori esan@@ da , duela gutxi berezia izan den zerbait gertatu da nire bizitzan eta nire karr@@ eran nire lan@@ bide@@ arekin nuen harre@@ m@@ ana ald@@ arazi duen zerbait Gauza berez@@ i hori da duela gutxi liburu bat idatzi nuela , “ E@@ at , Pr@@ ay , Lo@@ ve ” delako memor@@ ia hau idatzi ditudan beste liburu@@ ekin alderatuz arraz@@ o@@ iren bat@@ egatik mun@@ dur@@ atu zen eta nazioarteko arrakasta izugarri eta m@@ eg@@ a-@@ lilur@@ agarria lortu duen liburua da Hon@@ en emaitza da , edon@@ ora jo@@ anda jendeak ets@@ ita egongo ban@@ int@@ z bezala trat@@ atzen na@@ uela S@@ eri@@ oski – ets@@ ita , ets@@ ita !
+    ref: But , that said , something kind of p@@ ec@@ uli@@ ar has happened recently in my life and in my car@@ eer , which has ca@@ used me to have to rec@@ ali@@ br@@ ate my whole relationship with this work . And the p@@ ec@@ uli@@ ar thing is that I recently wrote this book , this mem@@ o@@ ir called &quot; E@@ at , Pr@@ ay , Lo@@ ve &quot; which , dec@@ ide@@ dly un@@ like any of my pre@@ vi@@ ous books , went out in the world for some reason , and became this big , m@@ eg@@ a-@@ sen@@ s@@ ation , international best@@ sel@@ ler thing . The result of which is that everywhere I go now , people tre@@ at me like I &apos; m do@@ om@@ ed .
+    nmt: I wanted to get a different breaking , and I &apos; m sure I would think that you &apos; d get to get on a different enunp , and a really asasder to get a practiot , and I believe , &quot; Here &apos; s a kind of asasasive verbassing , and I give a sense
+2018-08-09 19:34:00.305145: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:34:00.305166: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:34:00.305150: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-73000, time 0.08s
+# External evaluation, global step 73000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 7s, Thu Aug  9 19:34:07 2018.
+  bleu dev: 1.4
+  rouge dev: 19.4
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 73000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 6s, Thu Aug  9 19:34:14 2018.
+  bleu test: 1.4
+  rouge test: 19.4
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 73100 lr 0.0001 step-time 0.14s wps 11.23K ppl 1.96 gN 96.36 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:34:29 2018
+# Finished an epoch, step 73132. Perform external evaluation
+2018-08-09 19:34:34.810308: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:34:34.810308: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:34:34.810308: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-73000, time 0.06s
+  # 813
+    src: Jap@@ onia denbor@@ aldi batean aurretik joan ez ezik , Hego@@ aldeko K@@ orea ere hirugarren pos@@ tura heldu da@@ . eta Tx@@ ina Al@@ em@@ an@@ ia gain@@ ditz@@ eko zor@@ ian dago . Zergatik ? Er@@ abil@@ era hil@@ tzaileak desk@@ arg@@ a daitezk@@ e@@ elako . K@@ o@@ de zab@@ ala da . Edo@@ zein gizart@@ ek erakunde horiek har ditzake , eta egiten dut@@ enean , haiek lortzen dute mende@@ bald@@ arrek lort@@ ut@@ akoa 1@@ 5@@ 00@@ . urtetik aurrera — baina azkarrago .
+    ref: Not only has Japan been ah@@ e@@ ad for some time , South K@@ orea has gone into third place , and China is just about to over@@ take Ger@@ many . Why ? Because the kill@@ er app@@ s can be do@@ w@@ n@@ loaded . It &apos; s open source . An@@ y society can ad@@ op@@ t these institu@@ tions , and when they do , they achi@@ e@@ ve what the West achiev@@ ed after 1@@ 500 — only faster .
+    nmt: The climate time I &apos; ve not keep to keep to speak with my income , which &apos; s not no climate conttion , which &apos; s going to do . The other .
+2018-08-09 19:34:35.011611: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:34:35.011611: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:34:35.011611: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-73000, time 0.08s
+# External evaluation, global step 73000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 6s, Thu Aug  9 19:34:41 2018.
+  bleu dev: 1.4
+  rouge dev: 19.4
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 73000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 5s, Thu Aug  9 19:34:48 2018.
+  bleu test: 1.4
+  rouge test: 19.4
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 73200 lr 0.0001 step-time 0.16s wps 9.85K ppl 1.94 gN 91.79 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:35:00 2018
+  step 73300 lr 0.0001 step-time 0.14s wps 10.99K ppl 1.94 gN 91.77 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:35:14 2018
+# Finished an epoch, step 73310. Perform external evaluation
+2018-08-09 19:35:16.158586: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:35:16.158586: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:35:16.158636: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-73000, time 0.05s
+  # 902
+    src: Nire guras@@ oak zeharo zah@@ artu ziren garaia izan zen . Z@@ azpi ar@@ re@@ ba ditut . Ni naiz famil@@ iako gizon gutxi@@ enetako bat .
+    ref: It was the moment that my parents became very old . I have seven sist@@ ers .
+    nmt: Because with the father also becoming the right , is unying to the father . On the father would be connected . And I would see the father .
+2018-08-09 19:35:16.252689: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:35:16.252693: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:35:16.252693: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-73000, time 0.05s
+# External evaluation, global step 73000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 5s, Thu Aug  9 19:35:21 2018.
+  bleu dev: 1.4
+  rouge dev: 19.4
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 73000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 7s, Thu Aug  9 19:35:30 2018.
+  bleu test: 1.4
+  rouge test: 19.4
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 73400 lr 0.0001 step-time 0.14s wps 10.65K ppl 1.88 gN 87.77 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:35:44 2018
+# Finished an epoch, step 73488. Perform external evaluation
+2018-08-09 19:35:56.041940: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:35:56.041962: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:35:56.041940: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-73000, time 0.07s
+  # 1118
+    src: Guzti@@ ok ados gaude f@@ an@@ ati@@ sm@@ oa on@@ art@@ ezina dela , baina hura ikust@@ ean , isil@@ ik eg@@ oten gara , ezer@@ oso senti@@ arazten gait@@ u@@ elako .
+    ref: We can all agree that big@@ ot@@ ry is un@@ accep@@ table , but when we see it , we &apos; re sil@@ ent , because it makes us un@@ comfor@@ table .
+    nmt: We are all this on this on this pasting on all this system , but it &apos; s all of all this changes this than this medice than all Mappe than Mess .
+2018-08-09 19:35:56.201099: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:35:56.201138: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:35:56.201099: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-73000, time 0.07s
+# External evaluation, global step 73000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 7s, Thu Aug  9 19:36:03 2018.
+  bleu dev: 1.4
+  rouge dev: 19.4
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 73000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 7s, Thu Aug  9 19:36:11 2018.
+  bleu test: 1.4
+  rouge test: 19.4
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 73500 lr 0.0001 step-time 0.13s wps 11.75K ppl 1.96 gN 92.75 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:36:14 2018
+  step 73600 lr 0.0001 step-time 0.13s wps 12.30K ppl 1.96 gN 95.61 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:36:27 2018
+# Finished an epoch, step 73666. Perform external evaluation
+2018-08-09 19:36:37.291464: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:36:37.291464: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:36:37.291464: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-73000, time 0.07s
+  # 655
+    src: Ab@@ u G@@ h@@ rai@@ be@@ ko irudi beldur@@ garri@@ ek , baita G@@ u@@ ant@@ an@@ am@@ ok@@ oek ere , eragin handia izan zuten .
+    ref: The hor@@ ri@@ f@@ ying images from Ab@@ u G@@ h@@ rai@@ b as well as the images from G@@ u@@ ant@@ an@@ am@@ o had a pro@@ found impact .
+    nmt: I think that the magazine has has to come on this , the first who can have gotten on the contoulmal to conpress out .
+2018-08-09 19:36:37.438154: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:36:37.438225: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:36:37.438227: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-73000, time 0.08s
+# External evaluation, global step 73000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 7s, Thu Aug  9 19:36:44 2018.
+  bleu dev: 1.4
+  rouge dev: 19.4
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 73000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 5s, Thu Aug  9 19:36:51 2018.
+  bleu test: 1.4
+  rouge test: 19.4
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 73700 lr 0.0001 step-time 0.15s wps 10.49K ppl 1.94 gN 89.40 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:36:57 2018
+  step 73800 lr 0.0001 step-time 0.15s wps 10.35K ppl 1.90 gN 91.10 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:37:12 2018
+# Finished an epoch, step 73844. Perform external evaluation
+2018-08-09 19:37:18.971096: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:37:18.971116: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:37:18.971115: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-73000, time 0.06s
+  # 359
+    src: Id@@ az@@ le bat naiz Li@@ buru@@ ak id@@ aztea nire lan@@ bidea da baina hori baino gehiago ere bai , noski Nire bizitzako maitasun handia eta gauza lilur@@ agarria ere bada Eta ez dut hori inoiz aldatuko denik espero Baina , hori esan@@ da , duela gutxi berezia izan den zerbait gertatu da nire bizitzan eta nire karr@@ eran nire lan@@ bide@@ arekin nuen harre@@ m@@ ana ald@@ arazi duen zerbait Gauza berez@@ i hori da duela gutxi liburu bat idatzi nuela , “ E@@ at , Pr@@ ay , Lo@@ ve ” delako memor@@ ia hau idatzi ditudan beste liburu@@ ekin alderatuz arraz@@ o@@ iren bat@@ egatik mun@@ dur@@ atu zen eta nazioarteko arrakasta izugarri eta m@@ eg@@ a-@@ lilur@@ agarria lortu duen liburua da Hon@@ en emaitza da , edon@@ ora jo@@ anda jendeak ets@@ ita egongo ban@@ int@@ z bezala trat@@ atzen na@@ uela S@@ eri@@ oski – ets@@ ita , ets@@ ita !
+    ref: But , that said , something kind of p@@ ec@@ uli@@ ar has happened recently in my life and in my car@@ eer , which has ca@@ used me to have to rec@@ ali@@ br@@ ate my whole relationship with this work . And the p@@ ec@@ uli@@ ar thing is that I recently wrote this book , this mem@@ o@@ ir called &quot; E@@ at , Pr@@ ay , Lo@@ ve &quot; which , dec@@ ide@@ dly un@@ like any of my pre@@ vi@@ ous books , went out in the world for some reason , and became this big , m@@ eg@@ a-@@ sen@@ s@@ ation , international best@@ sel@@ ler thing . The result of which is that everywhere I go now , people tre@@ at me like I &apos; m do@@ om@@ ed .
+    nmt: I wanted to get a different breaking , and I &apos; m sure I would think that you &apos; d get to get on a different enunp , and a really asasder to get a practiot , and I believe , &quot; Here &apos; s a kind of asasasive verbassing , and I give a sense
+2018-08-09 19:37:19.226695: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:37:19.226703: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:37:19.226718: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-73000, time 0.06s
+# External evaluation, global step 73000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 5s, Thu Aug  9 19:37:25 2018.
+  bleu dev: 1.4
+  rouge dev: 19.4
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 73000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 6s, Thu Aug  9 19:37:32 2018.
+  bleu test: 1.4
+  rouge test: 19.4
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 73900 lr 0.0001 step-time 0.15s wps 10.33K ppl 1.90 gN 90.67 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:37:42 2018
+  step 74000 lr 0.0001 step-time 0.13s wps 12.19K ppl 1.96 gN 95.22 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:37:56 2018
+# Save eval, global step 74000
+2018-08-09 19:37:56.448540: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:37:56.448560: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:37:56.448545: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-74000, time 0.07s
+  # 1007
+    src: Os@@ asun dig@@ ital@@ ari buruzko ezt@@ abai@@ da askotan jendeak sinisten eta onartzen du datuak digit@@ aliz@@ a ditzak@@ eg@@ ula , haririk gabeko moduan transmit@@ itu ditzak@@ eg@@ ula , ho@@ de@@ ira bidali , eta bertan , ber@@ au interpret@@ atzeko behar@@ rezko informazioa atera .
+    ref: In many digital health discus@@ sions , people believe in and em@@ br@@ ace the idea that we can simply digit@@ ize the data , wir@@ el@@ ess@@ ly transmit it , sen@@ d it to the cl@@ oud , and in the cl@@ oud , we can ex@@ tract mean@@ ing@@ ful information for interpret@@ ation .
+    nmt: It &apos; s a lot of deetting us that , and three kids , and peringutle for our talk about language , and perhaps already perayed that I found working for this way , and perarty about things for our control way
+2018-08-09 19:37:56.614988: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:37:56.615007: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+  loaded eval model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-74000, time 0.06s
+  eval dev: perplexity 56438.04, time 3s, Thu Aug  9 19:37:59 2018.
+  eval test: perplexity 56438.04, time 3s, Thu Aug  9 19:38:03 2018.
+# Finished an epoch, step 74022. Perform external evaluation
+2018-08-09 19:38:06.848648: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:38:06.848648: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:38:06.848676: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-74000, time 0.06s
+  # 975
+    src: Ez dirudi oso zoriontsu . T@@ ek@@ n@@ iko@@ ek eta a@@ dit@@ uek ut@@ er@@ oko kontr@@ ak@@ zioak mon@@ it@@ or@@ iz@@ atzeko ger@@ ri@@ ko pis@@ uts@@ u horiek jartzen dizki@@ ot@@ elako .
+    ref: She doesn &apos; t look the happ@@ i@@ est . That &apos; s in part because it requ@@ i@@ res techn@@ icians and exper@@ ts to apply these cl@@ un@@ k@@ y bel@@ ts on her to mon@@ it@@ or her ut@@ er@@ ine contr@@ actions .
+    nmt: It &apos; s not surprising . There &apos; s happening in DDDroom and Dsure equality in the world 20 or equality or in Dupt Da, in Daction , or how in Doies .
+2018-08-09 19:38:07.051691: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:38:07.051855: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:38:07.051710: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-74000, time 0.08s
+# External evaluation, global step 74000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 7s, Thu Aug  9 19:38:14 2018.
+  bleu dev: 1.3
+  rouge dev: 19.0
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 74000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 6s, Thu Aug  9 19:38:21 2018.
+  bleu test: 1.3
+  rouge test: 19.0
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 74100 lr 0.0001 step-time 0.15s wps 10.58K ppl 1.91 gN 91.90 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:38:34 2018
+  step 74200 lr 0.0001 step-time 0.15s wps 10.41K ppl 1.90 gN 90.74 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:38:48 2018
+# Finished an epoch, step 74200. Perform external evaluation
+2018-08-09 19:38:48.943740: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:38:48.943740: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:38:48.943784: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-74000, time 0.07s
+  # 43
+    src: Eta gure enpres@@ ak era honela zuz@@ en@@ tzen ditugu , baita ere . Err@@ oreak estig@@ am@@ t@@ iz@@ atzen ditugu . Eta huts@@ egit@@ eak egin daitezk@@ een gauzarik txarr@@ entzat jotzen dituzten hezkuntza sistemak ditugu martxan gaur egun .
+    ref: And we run our companies like this . We st@@ ig@@ mat@@ ize mist@@ akes . And we &apos; re now running national education systems where mist@@ akes are the worst thing you can make .
+    nmt: And if they all interested in the world , if I came into the world , if they be right into the life , if they be right , if if we look at the right of the gochage of things that
+2018-08-09 19:38:49.107210: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:38:49.107221: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:38:49.107221: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-74000, time 0.07s
+# External evaluation, global step 74000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 5s, Thu Aug  9 19:38:55 2018.
+  bleu dev: 1.3
+  rouge dev: 19.0
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 74000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 6s, Thu Aug  9 19:39:02 2018.
+  bleu test: 1.3
+  rouge test: 19.0
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 74300 lr 0.0001 step-time 0.15s wps 10.36K ppl 1.88 gN 89.36 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:39:18 2018
+# Finished an epoch, step 74378. Perform external evaluation
+2018-08-09 19:39:28.607298: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:39:28.607301: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:39:28.607298: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-74000, time 0.05s
+  # 464
+    src: Baina noiz@@ ean behin , oso gutx@@ itan , zerbait gertatzen zen , eta antz@@ ez@@ le@@ et ak@@ ore bat garrantzitsua egiten zen .
+    ref: But every once in a while , very r@@ ar@@ ely , something would happen , and one of these perform@@ ers would actually become tran@@ sc@@ end@@ ent .
+    nmt: But if it was very much , very much , for this very much much if it came very much very much very easy now .
+2018-08-09 19:39:28.697219: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:39:28.697224: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:39:28.697237: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-74000, time 0.05s
+# External evaluation, global step 74000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 6s, Thu Aug  9 19:39:34 2018.
+  bleu dev: 1.3
+  rouge dev: 19.0
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 74000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 5s, Thu Aug  9 19:39:41 2018.
+  bleu test: 1.3
+  rouge test: 19.0
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 74400 lr 0.0001 step-time 0.13s wps 12.39K ppl 1.92 gN 94.05 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:39:45 2018
+  step 74500 lr 0.0001 step-time 0.15s wps 10.43K ppl 1.87 gN 90.80 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:40:00 2018
+# Finished an epoch, step 74556. Perform external evaluation
+2018-08-09 19:40:08.413495: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:40:08.413495: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:40:08.413505: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-74000, time 0.06s
+  # 194
+    src: Zor@@ ro@@ tza da , F@@ re@@ ud@@ en beste te@@ or@@ iak bezala . Ez dauka zentz@@ u handi@@ rik , el@@ dar@@ n@@ io bera ikusi bait@@ ut gaix@@ o bat el@@ dar@@ n@@ io ber@@ berarekin baina bere can@@ ic@@ hear@@ ekiko . Z@@ io@@ en : “ D@@ ok@@ t@@ orea , hau ez da F@@ if@@ i .
+    ref: It &apos; s very ing@@ en@@ ious , as all F@@ re@@ udi@@ an arg@@ um@@ ents are — — but didn &apos; t make much sense because I have seen the same del@@ usion , a pati@@ ent having the same del@@ usion , about his pe@@ t po@@ o@@ dle . He &apos; ll say , &quot; D@@ oc@@ tor , this is not F@@ if@@ i .
+    nmt: It doesn &apos; t just be svaved , but it &apos; s an unod an unfer or an suser , but it &apos; s an suntener sicker who ever , &quot; it &apos; s hard in me , it knows or it
+2018-08-09 19:40:08.594803: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:40:08.594822: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:40:08.594834: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-74000, time 0.06s
+# External evaluation, global step 74000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 5s, Thu Aug  9 19:40:14 2018.
+  bleu dev: 1.3
+  rouge dev: 19.0
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 74000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 7s, Thu Aug  9 19:40:22 2018.
+  bleu test: 1.3
+  rouge test: 19.0
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 74600 lr 0.0001 step-time 0.15s wps 10.71K ppl 1.93 gN 94.97 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:40:30 2018
+  step 74700 lr 0.0001 step-time 0.13s wps 12.35K ppl 1.86 gN 92.05 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:40:43 2018
+# Finished an epoch, step 74734. Perform external evaluation
+2018-08-09 19:40:48.296563: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:40:48.296584: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:40:48.296573: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-74000, time 0.07s
+  # 243
+    src: S@@ enti@@ pen hauek oso biz@@ iak dira , sinist@@ u behar@@ rek@@ oak .
+    ref: These are very comp@@ el@@ ling , vi@@ vi@@ d sen@@ s@@ ations .
+    nmt: The very infecation , it are very very astile ry .
+2018-08-09 19:40:48.391940: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:40:48.391940: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:40:48.391940: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-74000, time 0.06s
+# External evaluation, global step 74000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 7s, Thu Aug  9 19:40:55 2018.
+  bleu dev: 1.3
+  rouge dev: 19.0
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 74000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
+  done, num sentences 1140, num translations per input 1, time 7s, Thu Aug  9 19:41:04 2018.
+  bleu test: 1.3
+  rouge test: 19.0
+  accuracy test: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+  step 74800 lr 0.0001 step-time 0.13s wps 12.10K ppl 1.92 gN 96.79 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:41:13 2018
+  step 74900 lr 0.0001 step-time 0.15s wps 10.38K ppl 1.91 gN 89.93 bleu 1.84, rouge 20.56, accuracy 0.35, Thu Aug  9 19:41:28 2018
+# Finished an epoch, step 74912. Perform external evaluation
+2018-08-09 19:41:30.427327: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:41:30.427327: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:41:30.427327: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-74000, time 0.07s
+  # 350
+    src: Ab@@ str@@ ak@@ zioa egiteko modu prim@@ it@@ ibo bat da . Egun badakigu zir@@ k@@ un@@ bol@@ uz@@ io f@@ us@@ i@@ form@@ ean gertatzen dela , hond@@ atzen denean B@@ u@@ ba eta K@@ ik@@ iak erlazion@@ atzeko gaitasuna gal@@ tzen delako . Baita ere met@@ a@@ for@@ ak egiteko gaitasuna .
+    ref: It &apos; s a prim@@ itive form of ab@@ str@@ action , and we now know this happens in the f@@ us@@ i@@ form g@@ y@@ r@@ us of the brain , because when that &apos; s dam@@ aged , these people l@@ ose the ability to engage in B@@ ou@@ ba K@@ iki , but they also l@@ ose the ability to engage in met@@ ap@@ hor .
+    nmt: The sort of interboel on a boel on the interesbet who head-interesnative on Gartes and bueting on the signative on the front who headbet lolt on the sigboer on the boucon on on the
+2018-08-09 19:41:30.667075: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.eu is already initialized.
+2018-08-09 19:41:30.667259: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+2018-08-09 19:41:30.667377: I tensorflow/core/kernels/lookup_util.cc:373] Table trying to initialize from file /hdd/data/iwslt18/models/bpe.8k.v3/vocab.bpe.8000.en is already initialized.
+  loaded infer model parameters from /hdd/data/iwslt18/models/bpe.8k.v3/translate.ckpt-74000, time 0.08s
+# External evaluation, global step 74000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_dev.
+  done, num sentences 1140, num translations per input 1, time 6s, Thu Aug  9 19:41:37 2018.
+  bleu dev: 1.3
+  rouge dev: 19.0
+  accuracy dev: 0.2
+  saving hparams to /hdd/data/iwslt18/models/bpe.8k.v3/hparams
+# External evaluation, global step 74000
+  decoding to output /hdd/data/iwslt18/models/bpe.8k.v3/output_test.
